@@ -11,11 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150319210509) do
+ActiveRecord::Schema.define(version: 20150323214321) do
 
   create_table "nbaplayers", force: :cascade do |t|
     t.text     "name"
-    t.text     "position"
+    t.string   "position"
     t.text     "team"
     t.integer  "avgfanduelpoints"
     t.boolean  "is_starting_lineup"

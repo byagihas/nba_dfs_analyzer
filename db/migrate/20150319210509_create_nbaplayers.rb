@@ -11,3 +11,4 @@ class CreateNbaplayers < ActiveRecord::Migration
   end
 end
 
+
