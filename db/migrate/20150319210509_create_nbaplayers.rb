@@ -11,10 +11,3 @@ class CreateNbaplayers < ActiveRecord::Migration
   end
 end
 
-class ChangePositionType < ActiveRecord::Migration
-  def up
-    change column :nbaplayers, :position,
-  end
-  def down
-  end
-end
