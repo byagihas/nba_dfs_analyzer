@@ -8,11 +8,26 @@ body {
 table{
   margin:0 auto;
   vertical-align: center;
+  font-size: 1.5em;
+  padding: 1em;
+  thead{
+    tr{
+      th{
+        padding: .5em;
+      }
+    }
+  }
+  td{
+    padding: 1em;
+  }
+  p{
+    font-size: 1em;
+  }
 }
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 1em;
   line-height: 18px;
 }
 
@@ -28,14 +43,16 @@ a {
     color: #666;
   }
   &:hover {
-    color: #fff;
-    background-color: #000;
+    color: black;
   }
 }
 
 div {
   &.field, &.actions {
     margin-bottom: 10px;
+    font-size: 1.4em;
+    padding: .3em;
+    display: inline-block;
   }
 }
 
@@ -47,9 +64,13 @@ div {
   padding: 2px;
   background-color: red;
   display: table;
+  margin: 0 auto;
+  vertical-align: middle;
 }
 
 #error_explanation {
+  margin: 0 auto;
+  vertical-align: middle;
   width: 450px;
   border: 2px solid red;
   padding: 7px;
