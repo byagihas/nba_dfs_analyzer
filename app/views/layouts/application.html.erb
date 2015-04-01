@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TC359Onemodelrailsapp</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <title>NBA Player Database</title>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-static-top">
-  <div class="container-fluid">
   <ul>
     <li><%= link_to 'Home', root_path %></li>
     <li><%= link_to 'Add an NBA player', new_nbaplayer_path %></li>
     <li><%= link_to 'NBA Player Database', nbaplayers_path %></li>
   </ul>
-  </div>
 </nav>
 <div class="container-fluid">
   <%= yield %>

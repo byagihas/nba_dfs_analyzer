@@ -69,6 +69,6 @@ class NbaplayersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def nbaplayer_params
-      params.require(:nbaplayer).permit(:name, :position, :team, :avgfanduelpoints, :is_starting_lineup)
+      params.require(:nbaplayer).permit(:name, :position, :team, :avgpoints, :is_starting_lineup)
     end
 end

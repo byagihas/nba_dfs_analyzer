@@ -13,15 +13,26 @@
  *= require_tree .
  *= require_self
  */
- .navbar{
-  background-color: gray;
-  padding: 1.5em;
+.navbar{
+  background-color: black;
+  padding: 2em;
+  text-align: center;
+  box-shadow: 1px 1px 1px 1px solid black;
+}
+.navbar li{
+  color: white;
+  list-style-type: none;
+  display: inline;
+  padding: 3em;
 }
 .navbar a{
   color: white;
+  text-decoration: none;
+  font-size: 1.8em;
 }
 .navbar a:hover{
-  color: black;
+  color: gray;
+  text-decoration: none;
 }
 .container-fluid{
   text-align: center;
