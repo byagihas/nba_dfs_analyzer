@@ -12,7 +12,8 @@ table{
     tr{
       th{
         font-size: 1.5em;
-        padding: 1em;
+        padding: .8em;
+
       }
     }
   }
@@ -20,6 +21,7 @@ table{
     tr{
       td{
         font-size: 1.2em;
+        text-align: center;
       }
     }
   }
@@ -32,36 +34,31 @@ table{
   }
   a:hover{
     color: black;
-    text-deocration: none;
+    text-decoration: none;
   }
-}
-a{
-  padding: .5em;
-  font-size: 1.5em;
-}
-a:hover{
-  color: black;
-  text-decoration: none;
 }
 
 
 div {
   &.field, &.actions {
     margin-bottom: 10px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding: .3em;
+    text-align: center;
+
   }
 }
 
 #notice {
   color: green;
+  vertical-align: middle;
 }
 
 .field_with_errors {
   padding: 2px;
   background-color: red;
-  display: table;
   margin: 0 auto;
+  display: table;
   vertical-align: middle;
 }
 
@@ -87,5 +84,22 @@ div {
   ul li {
     font-size: 12px;
     list-style: square;
+  }
+}
+
+.container-fluid{
+  .links{
+    text-align: center;
+    a{
+      font-size: 1.2em;
+      padding: .5em;
+    }
+    a:hover{
+      text-decoration: none;
+      color: black;
+    }
+  }
+  h3,h2,p{
+    text-align: center;
   }
 }

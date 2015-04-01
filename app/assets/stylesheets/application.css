@@ -34,22 +34,6 @@
   color: gray;
   text-decoration: none;
 }
-.container-fluid{
+.container-fluid h3,h2{
   text-align: center;
 }
-.container-fluid p{
-  font-size: 2em;
-}
-.container-fluid ul{
-  list-style-type: none;
-  padding: 1em;
-}
-.container-fluid ul li{
-  font-size: 1.7em;
-  padding: 1em;
-  display: inline;
-}
-.container-fluid ul li a{
-  text-decoration: none;
-}
-
