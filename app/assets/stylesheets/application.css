@@ -18,7 +18,6 @@
   padding: 2em;
   text-align: center;
   box-shadow: 1px 1px 1px 1px solid black;
-<<<<<<< HEAD
 }
 #nav li{
   padding: 1.5em;
@@ -57,7 +56,6 @@
 }
 .navbar .login a:hover{
   color: white;
-=======
 }
 .navbar li{
   color: white;
@@ -72,6 +70,5 @@
 }
 .navbar a:hover{
   color: gray;
->>>>>>> 088f37e1a3e6a9c595d1e1f13651e4c9420240ef
   text-decoration: none;
 }
