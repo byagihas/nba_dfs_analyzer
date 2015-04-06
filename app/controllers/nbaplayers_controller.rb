@@ -1,4 +1,5 @@
 class NbaplayersController < ApplicationController
+  before_action :only_allow_signed_in_users, except: [:index, :show, :home]
   before_action :set_nbaplayer, only: [:show, :edit, :update, :destroy]
 
   # GET /nbaplayers
@@ -69,6 +70,6 @@ class NbaplayersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def nbaplayer_params
-      params.require(:nbaplayer).permit(:name, :position, :team, :avgfanduelpoints, :is_starting_lineup)
+      params.require(:nbaplayer).permit(:name, :position, :team, :avgpoints, :is_starting_lineup)
     end
 end

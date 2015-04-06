@@ -13,32 +13,48 @@
  *= require_tree .
  *= require_self
  */
- .navbar{
-  background-color: gray;
-  padding: 1.5em;
-}
-.navbar a{
-  color: white;
-}
-.navbar a:hover{
-  color: black;
-}
-.container-fluid{
+.navbar{
+  background-color: black;
+  padding: 2em;
   text-align: center;
+  box-shadow: 1px 1px 1px 1px solid black;
 }
-.container-fluid p{
-  font-size: 2em;
-}
-.container-fluid ul{
-  list-style-type: none;
-  padding: 1em;
-}
-.container-fluid ul li{
-  font-size: 1.7em;
-  padding: 1em;
+#nav li{
+  padding: 1.5em;
   display: inline;
+  list-style-type: none;
 }
-.container-fluid ul li a{
+.navbar .menu{
+  text-align: left;
+  float: left;
+}
+.navbar .menu a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.8em;
+}
+.navbar .menu a:hover{
+  color: gray;
   text-decoration: none;
 }
-
+.navbar .login{
+  float: right;
+  background-color: white;
+  border-radius: .2em;
+  padding: .1em;
+}
+.navbar .login:hover{
+  background-color: gray;
+}
+.navbar .login li{
+  list-style-type: none;
+}
+.navbar .login a{
+  font-size: 1em;
+  padding: 1em;
+  color: black;
+}
+.navbar .login a:hover{
+  color: white;
+  text-decoration: none;
+}

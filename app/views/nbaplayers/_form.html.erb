@@ -24,14 +24,14 @@
     <%= f.text_field :team %>
   </div>
   <div class="field">
-    <%= f.label :avgfanduelpoints %><br>
-    <%= f.number_field :avgfanduelpoints %>
+    <%= f.label :avgpoints, "Average Points"%><br>
+    <%= f.number_field :avgpoints %>
   </div>
   <div class="field">
-    <%= f.label :is_starting_lineup %><br>
+    <%= f.label :is_starting_lineup, "Starting Lineup" %><br>
     <%= f.check_box :is_starting_lineup %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Create"%>
   </div>
 <% end %>
