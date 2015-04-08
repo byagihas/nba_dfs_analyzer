@@ -17,7 +17,9 @@
   <div class="menu">
     <ul id="nav">
       <li><%= link_to 'Home', root_path %></li>
-      <li><%= link_to 'Add an NBA player', new_nbaplayer_path %></li>
+      <% if user_signed_in? %>
+        <li><%= link_to 'Add an NBA player', new_nbaplayer_path %></li>
+      <% end %>
       <li><%= link_to 'NBA Player Database', nbaplayers_path %></li>
     </ul>
   </div>

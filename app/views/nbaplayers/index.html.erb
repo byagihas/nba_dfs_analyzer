@@ -22,15 +22,19 @@
         <td><%= nbaplayer.team %></td>
         <td><%= nbaplayer.avgpoints %></td>
         <td><%= nbaplayer.is_starting_lineup %></td>
-        <td><%= link_to 'Show', nbaplayer %></td>
-        <td><%= link_to 'Edit', edit_nbaplayer_path(nbaplayer) %></td>
-        <td><%= link_to 'Destroy', nbaplayer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% if user_signed_in? %>
+          <td><%= link_to 'Show', nbaplayer %></td>
+          <td><%= link_to 'Edit', edit_nbaplayer_path(nbaplayer) %></td>
+          <td><%= link_to 'Destroy', nbaplayer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-<div class="links">
-  <%= link_to 'New NBA Player', new_nbaplayer_path %>
-</div>
+<% if user_signed_in? %>
+  <div class="links">
+    <%= link_to 'New NBA Player', new_nbaplayer_path %>
+  </div>
+<% end %>
