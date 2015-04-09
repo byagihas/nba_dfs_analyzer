@@ -24,7 +24,10 @@
   <strong>Is starting lineup:</strong>
   <%= @nbaplayer.is_starting_lineup %>
 </p>
+
 <div class="links">
-  <%= link_to 'Edit', edit_nbaplayer_path(@nbaplayer) %> |
+  <% if user_signed_in? %>
+    <%= link_to 'Edit', edit_nbaplayer_path(@nbaplayer) %> |
+  <% end %>
   <%= link_to 'Back', nbaplayers_path %>
 </div>

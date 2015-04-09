@@ -41,7 +41,7 @@
   float: right;
   background-color: gray;
   border-radius: .2em;
-  padding: .1em;
+  padding: .2em;
 }
 .navbar .login:hover{
   background-color: gray;
