@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  position: MyText
+  team: MyText
+  avgfanduelpoints: 1
+  is_starting_lineup: false
+
+two:
+  name: MyText
+  position: MyText
+  team: MyText
+  avgfanduelpoints: 1
+  is_starting_lineup: false

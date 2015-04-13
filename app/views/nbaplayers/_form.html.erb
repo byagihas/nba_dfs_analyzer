@@ -1,0 +1,37 @@
+<%= form_for(@nbaplayer) do |f| %>
+  <% if @nbaplayer.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@nbaplayer.errors.count, "error") %> prohibited this nbaplayer from being saved:</h2>
+
+      <ul>
+      <% @nbaplayer.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :position %><br>
+    <%= f.text_field :position %>
+  </div>
+  <div class="field">
+    <%= f.label :team %><br>
+    <%= f.text_field :team %>
+  </div>
+  <div class="field">
+    <%= f.label :avgpoints, "Average Points"%><br>
+    <%= f.number_field :avgpoints %>
+  </div>
+  <div class="field">
+    <%= f.label :is_starting_lineup, "Starting Lineup" %><br>
+    <%= f.check_box :is_starting_lineup %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Create"%>
+  </div>
+<% end %>
