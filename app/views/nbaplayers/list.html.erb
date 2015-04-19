@@ -1,0 +1,25 @@
+<section class="plist">
+  <h3>Listing MLB Players</h3>
+  <table class="players-list-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Team</th>
+        <th>Average Points</th>
+        <th>Starting Lineup</th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @players.each do |player| %>
+        <tr>
+          <td><%= player[:pname] %></td>
+          <td><%= player[:ppos] %></td>
+          <td><%= player[:pcost] %></td>
+          <td><%= player[:pfppg] %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<section>

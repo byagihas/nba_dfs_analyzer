@@ -1,3 +1,7 @@
+require 'mechanize'
+require 'nokogiri'
+require 'open-uri'
+
 class NbaplayersController < ApplicationController
   before_action :only_allow_signed_in_users, except: [:index, :show, :home]
   before_action :set_nbaplayer, only: [:show, :edit, :update, :destroy]
@@ -6,6 +10,32 @@ class NbaplayersController < ApplicationController
   # GET /nbaplayers.json
   def index
     @nbaplayers = Nbaplayer.all
+  end
+
+  def list
+    url = "http://www.rotowire.com/daily/mlb/optimizer.htm"
+    agent = Mechanize.new { |agent| agent.user_agent_alias = "Mac Safari" }
+    html = agent.get(url).body
+
+    html_doc = Nokogiri::HTML(html)
+    html_doc.encoding = 'utf-8'
+
+    list = html_doc.search('//tr[starts-with(@class, "playerSe")]')
+    @players = list.collect do |l|
+      player = {}
+      [
+        [:ppos, 'td[4]/text()'],
+        [:pname, 'td[2]/a/text()'],
+        [:pfppg, 'td[7]/text()'],
+        [:pcost, 'td[6]/text()'],
+      ].each do |name, xpath|
+        player[name] = l.at_xpath(xpath).to_s.strip
+      end
+      player
+    end
+end
+
+  def add_to_lineup
   end
 
   # GET /nbaplayers/1

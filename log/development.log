@@ -17614,3 +17614,2518 @@ Processing by NbaplayersController#home as HTML
   [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
 Completed 200 OK in 93ms (Views: 92.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 14:02:21 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (2.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 200ms (Views: 191.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 14:02:22 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 55ms (Views: 54.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-13 14:02:22 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-13 14:02:22 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-13 14:02:22 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-13 14:02:22 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-13 14:02:22 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-13 14:02:22 -0400
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for 127.0.0.1 at 2015-04-13 14:02:22 -0400
+
+
+Started GET "/assets/nbaplayers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-13 14:02:22 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 15:06:40 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (2.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 183ms (Views: 175.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/nbaplayers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-13 15:06:41 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-13 15:06:41 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-13 15:06:41 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-13 15:06:41 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-13 15:06:41 -0400
+
+
+Started GET "/assets/nbaplayers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-13 15:06:41 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-13 15:06:41 -0400
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for 127.0.0.1 at 2015-04-13 15:06:41 -0400
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-13 15:06:43 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 55ms (Views: 54.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 15:06:46 -0400
+Processing by NbaplayersController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+NameError (uninitialized constant NbaplayersController::PlayerScraper):
+  app/controllers/nbaplayers_controller.rb:8:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (61.0ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 15:06:46 -0400
+Processing by NbaplayersController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant NbaplayersController::PlayerScraper):
+  app/controllers/nbaplayers_controller.rb:8:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (20.8ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 15:07:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+Completed 500 Internal Server Error in 35ms
+
+NameError (uninitialized constant NbaplayersController::PlayerScraper):
+  app/controllers/nbaplayers_controller.rb:8:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (22.9ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 15:07:43 -0400
+Processing by NbaplayersController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+NameError (uninitialized constant NbaplayersController::PlayerScraper):
+  app/controllers/nbaplayers_controller.rb:8:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (20.4ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 15:10:05 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+Completed 500 Internal Server Error in 9ms
+
+NameError (uninitialized constant NbaplayersController::PlayerScraper):
+  app/controllers/nbaplayers_controller.rb:8:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (44.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (22.5ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 15:13:02 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered nbaplayers/index.html.erb within layouts/application (45.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 185ms (Views: 175.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/nbaplayers-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-13 15:13:03 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-04-13 15:13:03 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-04-13 15:13:03 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-04-13 15:13:03 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-04-13 15:13:03 -0400
+
+
+Started GET "/assets/nbaplayers-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-13 15:13:03 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-04-13 15:13:03 -0400
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for 127.0.0.1 at 2015-04-13 15:13:03 -0400
+
+
+Started GET "/nbaplayers/8" for 127.0.0.1 at 2015-04-13 15:13:11 -0400
+Processing by NbaplayersController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1[0m  [["id", 8]]
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant NbaplayersController::PlayerScraper):
+  app/controllers/nbaplayers_controller.rb:14:in `show'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.6ms)
+
+
+Started GET "/nbaplayers/8" for 127.0.0.1 at 2015-04-13 15:13:11 -0400
+Processing by NbaplayersController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1  [["id", 8]]
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant NbaplayersController::PlayerScraper):
+  app/controllers/nbaplayers_controller.rb:14:in `show'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (20.4ms)
+
+
+Started GET "/nbaplayers/8" for 127.0.0.1 at 2015-04-13 15:15:34 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1  [["id", 8]]
+Completed 500 Internal Server Error in 75ms
+
+NameError (uninitialized constant NbaplayersController::PlayerScraper):
+  app/controllers/nbaplayers_controller.rb:14:in `show'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (22.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 16:26:06 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+Gem::LoadError (mechanize is not part of the bundle. Add it to Gemfile.):
+  app/controllers/nbaplayers_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (49.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 16:26:06 -0400
+
+Gem::LoadError (mechanize is not part of the bundle. Add it to Gemfile.):
+  app/controllers/nbaplayers_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (21.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 16:26:32 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+Gem::LoadError (open-uri is not part of the bundle. Add it to Gemfile.):
+  app/controllers/nbaplayers_controller.rb:3:in `<top (required)>'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (22.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 16:26:33 -0400
+
+Gem::LoadError (open-uri is not part of the bundle. Add it to Gemfile.):
+  app/controllers/nbaplayers_controller.rb:3:in `<top (required)>'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (20.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 16:27:19 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+Gem::LoadError (open-uri is not part of the bundle. Add it to Gemfile.):
+  app/controllers/nbaplayers_controller.rb:3:in `<top (required)>'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (22.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 16:27:45 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (2.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 1350ms (Views: 1341.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/nbaplayers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-13 16:27:47 -0400
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-13 16:27:47 -0400
+
+
+Started GET "/assets/scaffolds.self-be9d44adea138cdf3283141eb13ba157fad0ea8a641f123a8d0f2d2b58a72106.css?body=1" for 127.0.0.1 at 2015-04-13 16:27:47 -0400
+
+
+Started GET "/assets/application.self-969c99da9c5dbf3e75ab4ab4dc5dfd91c82cd904b829d22a31ebd4f468376172.css?body=1" for 127.0.0.1 at 2015-04-13 16:27:47 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-04-13 16:27:47 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-04-13 16:27:47 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-13 16:27:47 -0400
+
+
+Started GET "/assets/nbaplayers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-04-13 16:27:47 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-04-13 16:27:47 -0400
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-04-13 16:27:47 -0400
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:27:49 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered nbaplayers/index.html.erb within layouts/application (8.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 64205ms (Views: 35.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:28:53 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered nbaplayers/index.html.erb within layouts/application (1.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 1257ms (Views: 30.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 16:28:54 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:28:54 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered nbaplayers/index.html.erb within layouts/application (1.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 1119ms (Views: 90.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-13 16:28:55 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-13 16:28:55 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-13 16:28:55 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:28:55 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered nbaplayers/index.html.erb within layouts/application (1.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 1161ms (Views: 33.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 16:28:57 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 84ms (Views: 83.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:28:57 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered nbaplayers/index.html.erb within layouts/application (1.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 1183ms (Views: 87.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:28:58 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered nbaplayers/index.html.erb within layouts/application (1.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 1106ms (Views: 83.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:28:59 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered nbaplayers/index.html.erb within layouts/application (1.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 1090ms (Views: 86.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-13 16:29:00 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 16:29:00 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 16:29:10 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:29:12 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered nbaplayers/index.html.erb within layouts/application (1.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 1322ms (Views: 33.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-13 16:29:13 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 94ms (Views: 92.6ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-04-13 16:29:28 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7qlSe+bwqxT8tCvPf6uHfUpocMe0Y8AwF4KDoAfezek1NQRN3psr+hvyNZMURla4rRoJhyRwGbL6FAMGcusnjg==", "email"=>"fritzchr@msu.edu", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "fritzchr@msu.edu"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 66ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 16:29:28 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 32ms (Views: 31.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:29:31 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1067ms (Views: 29.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:29:33 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1004ms (Views: 29.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers/8" for 127.0.0.1 at 2015-04-13 16:29:35 -0400
+Processing by NbaplayersController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mNbaplayer Load (0.3ms)[0m  SELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/show.html.erb within layouts/application (3.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 45ms (Views: 41.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-13 16:29:37 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (66.8ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (124.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 200ms (Views: 198.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:29:38 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 966ms (Views: 86.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:29:38 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (2.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1211ms (Views: 84.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:29:40 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1196ms (Views: 82.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers/8/edit" for 127.0.0.1 at 2015-04-13 16:30:03 -0400
+Processing by NbaplayersController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1  [["id", 8]]
+  Rendered nbaplayers/_form.html.erb (3.3ms)
+  Rendered nbaplayers/edit.html.erb within layouts/application (5.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 42ms (Views: 40.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:30:07 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1138ms (Views: 29.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:30:50 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+  Rendered nbaplayers/index.html.erb within layouts/application (42.3ms)
+Completed 500 Internal Server Error in 1060ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    15:   </thead>
+    16: 
+    17:   <tbody>
+    18:     <% @nbaplayers.each do |nbaplayer| %>
+    19:       <tr>
+    20:         <td><%= nbaplayer.name %></td>
+    21:         <td><%= nbaplayer.position %></td>
+  app/views/nbaplayers/index.html.erb:18:in `_app_views_nbaplayers_index_html_erb__930783311921562783_69917139744840'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (54.9ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:31:13 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+  Rendered nbaplayers/index.html.erb within layouts/application (42.6ms)
+Completed 500 Internal Server Error in 1022ms
+
+ActionView::Template::Error (undefined method `name' for #<Array:0x007f85f0e205b8>):
+    17:   <tbody>
+    18:     <% @nbaplayers.each do |nbaplayer| %>
+    19:       <tr>
+    20:         <td><%= nbaplayer.name %></td>
+    21:         <td><%= nbaplayer.position %></td>
+    22:         <td><%= nbaplayer.team %></td>
+    23:         <td><%= nbaplayer.avgpoints %></td>
+  app/views/nbaplayers/index.html.erb:20:in `block in _app_views_nbaplayers_index_html_erb__4485300394369902070_70106624194460'
+  app/views/nbaplayers/index.html.erb:18:in `each'
+  app/views/nbaplayers/index.html.erb:18:in `_app_views_nbaplayers_index_html_erb__4485300394369902070_70106624194460'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (56.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.6ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:33:23 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+  Rendered nbaplayers/index.html.erb within layouts/application (44.8ms)
+Completed 500 Internal Server Error in 1963ms
+
+ActionView::Template::Error (undefined method `name' for #<Hash:0x007f8ea8d6b2d8>):
+    17:   <tbody>
+    18:     <% @nbaplayers.each do |nbaplayer| %>
+    19:       <tr>
+    20:         <td><%= nbaplayer.name %></td>
+    21:         <td><%= nbaplayer.position %></td>
+    22:         <td><%= nbaplayer.team %></td>
+    23:         <td><%= nbaplayer.avgpoints %></td>
+  app/views/nbaplayers/index.html.erb:20:in `block in _app_views_nbaplayers_index_html_erb___4362518424864362101_70125341667360'
+  app/views/nbaplayers/index.html.erb:18:in `each'
+  app/views/nbaplayers/index.html.erb:18:in `_app_views_nbaplayers_index_html_erb___4362518424864362101_70125341667360'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (62.1ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:33:26 -0400
+Processing by NbaplayersController#index as HTML
+  Rendered nbaplayers/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 1797ms
+
+ActionView::Template::Error (undefined method `name' for #<Hash:0x007f8ea8a04658>):
+    17:   <tbody>
+    18:     <% @nbaplayers.each do |nbaplayer| %>
+    19:       <tr>
+    20:         <td><%= nbaplayer.name %></td>
+    21:         <td><%= nbaplayer.position %></td>
+    22:         <td><%= nbaplayer.team %></td>
+    23:         <td><%= nbaplayer.avgpoints %></td>
+  app/views/nbaplayers/index.html.erb:20:in `block in _app_views_nbaplayers_index_html_erb___4362518424864362101_70125341667360'
+  app/views/nbaplayers/index.html.erb:18:in `each'
+  app/views/nbaplayers/index.html.erb:18:in `_app_views_nbaplayers_index_html_erb___4362518424864362101_70125341667360'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (47.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (60.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (20.6ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:34:35 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+  Rendered nbaplayers/index.html.erb within layouts/application (41.4ms)
+Completed 500 Internal Server Error in 1419ms
+
+ActionView::Template::Error (undefined method `name' for #<Hash:0x00000003dd1668>):
+    17:   <tbody>
+    18:     <% @nbaplayers.each do |nbaplayer| %>
+    19:       <tr>
+    20:         <td><%= nbaplayer.name %></td>
+    21:         <td><%= nbaplayer.position %></td>
+    22:         <td><%= nbaplayer.team %></td>
+    23:         <td><%= nbaplayer.avgpoints %></td>
+  app/views/nbaplayers/index.html.erb:20:in `block in _app_views_nbaplayers_index_html_erb___2211261433809581670_69829558332960'
+  app/views/nbaplayers/index.html.erb:18:in `each'
+  app/views/nbaplayers/index.html.erb:18:in `_app_views_nbaplayers_index_html_erb___2211261433809581670_69829558332960'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.1ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:37:20 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+Completed 500 Internal Server Error in 639ms
+
+NoMethodError (undefined method `catg=' for {}:Hash):
+  app/controllers/nbaplayers_controller.rb:28:in `block (2 levels) in index'
+  app/controllers/nbaplayers_controller.rb:23:in `each'
+  app/controllers/nbaplayers_controller.rb:23:in `block in index'
+  app/controllers/nbaplayers_controller.rb:20:in `collect'
+  app/controllers/nbaplayers_controller.rb:20:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (51.0ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:37:42 -0400
+Processing by NbaplayersController#index as HTML
+Completed 500 Internal Server Error in 1017ms
+
+NoMethodError (undefined method `name=' for {}:Hash):
+  app/controllers/nbaplayers_controller.rb:28:in `block (2 levels) in index'
+  app/controllers/nbaplayers_controller.rb:23:in `each'
+  app/controllers/nbaplayers_controller.rb:23:in `block in index'
+  app/controllers/nbaplayers_controller.rb:20:in `collect'
+  app/controllers/nbaplayers_controller.rb:20:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (20.9ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:41:05 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+Completed 500 Internal Server Error in 615ms
+
+NoMethodError (undefined method `name=' for nil:NilClass):
+  app/controllers/nbaplayers_controller.rb:21:in `block in index'
+  app/controllers/nbaplayers_controller.rb:20:in `collect'
+  app/controllers/nbaplayers_controller.rb:20:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (50.7ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:42:56 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+Completed 500 Internal Server Error in 746ms
+
+NameError (undefined local variable or method `nbaplayer' for #<NbaplayersController:0x007f669c59fe48>):
+  app/controllers/nbaplayers_controller.rb:21:in `block in index'
+  app/controllers/nbaplayers_controller.rb:20:in `collect'
+  app/controllers/nbaplayers_controller.rb:20:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.3ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:43:56 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+Completed 500 Internal Server Error in 1231ms
+
+NoMethodError (undefined method `each' for nil:NilClass):
+  app/controllers/nbaplayers_controller.rb:20:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (37.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (50.7ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:44:16 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+Completed 500 Internal Server Error in 858ms
+
+NameError (undefined local variable or method `nbaplayers' for #<NbaplayersController:0x007f893ca8c1a0>):
+  app/controllers/nbaplayers_controller.rb:20:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (51.3ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:45:16 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+Completed 500 Internal Server Error in 9ms
+
+NameError (uninitialized constant NbaplayersController::Nbaplayers):
+  app/controllers/nbaplayers_controller.rb:12:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (45.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (22.7ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:45:33 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (77.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 391ms (Views: 380.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 16:45:36 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:45:39 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (2.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-13 16:45:40 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (109.2ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (113.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 147ms (Views: 144.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:45:41 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:45:43 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (3.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-13 16:45:43 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (55.5ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (56.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 90ms (Views: 88.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:45:45 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.4ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (3.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 43ms (Views: 40.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-13 16:45:45 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (1.5ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (2.0ms)
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-13 16:55:50 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 368ms (Views: 359.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-13 16:55:58 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (10.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 45ms (Views: 39.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/nbaplayer" for 127.0.0.1 at 2015-04-13 16:56:01 -0400
+
+ActionController::RoutingError (No route matches [GET] "/nbaplayer"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (54.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (122.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (21.5ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-13 16:57:53 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (42.5ms)
+Completed 500 Internal Server Error in 1073ms
+
+ActionView::Template::Error (undefined method `pname' for #<Hash:0x007f6c1ce562f0>):
+    17:   <tbody>
+    18:     <% @players.each do |player| %>
+    19:       <tr>
+    20:         <td><%= player.pname %></td>
+    21:         <td><%= player.ppos %></td>
+    22:         <td><%= player.pcost %></td>
+    23:         <td><%= player.pfppg %></td>
+  app/views/nbaplayers/list.html.erb:20:in `block in _app_views_nbaplayers_list_html_erb__1981233696829631488_70051154161520'
+  app/views/nbaplayers/list.html.erb:18:in `each'
+  app/views/nbaplayers/list.html.erb:18:in `_app_views_nbaplayers_list_html_erb__1981233696829631488_70051154161520'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (57.4ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-13 16:58:54 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (7.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1385ms (Views: 358.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-13 16:58:56 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (4.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1139ms (Views: 91.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-13 17:04:15 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1187ms (Views: 34.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 19:53:13 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://localhost:3000/sign-in
+Filter chain halted as :only_allow_signed_in_users rendered or redirected
+Completed 302 Found in 48ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-15 19:53:14 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (30.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 358ms (Views: 357.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 19:53:20 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/sign-in
+Filter chain halted as :only_allow_signed_in_users rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-15 19:53:20 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 31ms (Views: 30.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-04-15 19:53:25 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FabaVKdWHeHoY/31OUYUAE+tn64pHxI/tQfvCjTZRxa04WOyUAiTEtauo/yGpjWYHPJZ4iKZfTc6r5A2ctfacQ==", "email"=>"fritzchr@msu.edu", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "fritzchr@msu.edu"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 62ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-15 19:53:25 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 19:53:29 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (6.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1136ms (Views: 34.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 19:53:30 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1281ms (Views: 87.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 19:56:54 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (7.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1592ms (Views: 437.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 19:56:57 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1471ms (Views: 31.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 19:57:02 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (59.9ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (116.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 204ms (Views: 186.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-15 19:57:03 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (2.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-15 19:57:04 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 19:57:05 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (1.6ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (2.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-15 19:57:06 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (3.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 19:57:08 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (1.8ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (3.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 82ms (Views: 80.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-15 19:57:09 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 19:57:13 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1246ms (Views: 31.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 19:57:14 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1170ms (Views: 31.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 19:57:44 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1230ms (Views: 69.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-7bc26ec582f4a91ec5714c85d7ba3a3431af237cc9825762483deaad313099e3.css?body=1" for 127.0.0.1 at 2015-04-15 19:57:45 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 19:57:57 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1099ms (Views: 56.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/nbaplayers.self-2342473b4198fbf774ca13c134d77bc0500571c10b870c5cf298f99f7e4937b5.css?body=1" for 127.0.0.1 at 2015-04-15 19:57:58 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:05:55 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 1511ms
+
+ActionView::Template::Error (Invalid CSS after "...variables.scss"": expected selector or at-rule, was "@import "styles..."):
+    3: <head>
+    4:   <title>NBA Player Database</title>
+    5:   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    6:   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:   <script src="https://code.jquery.com/jquery-2.1.3.min.js"</script>
+    8:   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    9:   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  app/assets/stylesheets/nbaplayers.scss:5
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3652370433609574475_69964856242860'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.8ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:06:19 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1325ms (Views: 266.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/base/variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-15 20:06:21 -0400
+
+
+Started GET "/assets/styles/list.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-15 20:06:21 -0400
+
+
+Started GET "/assets/styles/players.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-15 20:06:21 -0400
+
+
+Started GET "/assets/application.self-6ddcd52bb90cccf786e09d8fe71b07a5007b1ae1ee10f9797f8c8b433074561a.css?body=1" for 127.0.0.1 at 2015-04-15 20:06:21 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:07:13 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1172ms (Views: 139.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/nbaplayers.self-d930492f66709b562938df007e1bb325c81e052f39428d1a4a1f4da89c2f8ce2.css?body=1" for 127.0.0.1 at 2015-04-15 20:07:14 -0400
+
+
+Started GET "/assets/styles/players.self-d930492f66709b562938df007e1bb325c81e052f39428d1a4a1f4da89c2f8ce2.css?body=1" for 127.0.0.1 at 2015-04-15 20:07:14 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:07:15 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1054ms (Views: 38.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:07:23 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1213ms (Views: 38.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:07:35 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (7.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1445ms (Views: 324.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:07:50 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1364ms (Views: 191.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/nbaplayers.self-79d9a00ef891949cd2567773214879a767409db533905af31c465b23ac9deea8.css?body=1" for 127.0.0.1 at 2015-04-15 20:07:51 -0400
+
+
+Started GET "/assets/styles/players.self-79d9a00ef891949cd2567773214879a767409db533905af31c465b23ac9deea8.css?body=1" for 127.0.0.1 at 2015-04-15 20:07:51 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:07:56 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1218ms (Views: 41.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:09:17 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1382ms (Views: 143.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/nbaplayers.self-47c1d1d3b72e2ddfb0346e27d439b6392d1f951a7bb8f5e9c98056a61745a155.css?body=1" for 127.0.0.1 at 2015-04-15 20:09:19 -0400
+
+
+Started GET "/assets/styles/list.self-058f45d3fd8049d0fc7156924b1745e715c7f1112969a6cb72e8c188020d6ecb.css?body=1" for 127.0.0.1 at 2015-04-15 20:09:19 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:09:27 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1367ms (Views: 143.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-5aafa6897d26afaa2c23aa8b4c8eb486615274c8e13cc3ec09aa4e9ee1739786.css?body=1" for 127.0.0.1 at 2015-04-15 20:09:28 -0400
+
+
+Started GET "/assets/styles/list.self-87c31210e7563a5eb0c999ed0b7a7cdc7df10c16027e0620c698ec302a8b5a9a.css?body=1" for 127.0.0.1 at 2015-04-15 20:09:28 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:10:00 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1234ms (Views: 181.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-8a13c27a055f95fc47a8e2a3de9509d9a2256bbded79b54c0b59eaefd7bdd204.css?body=1" for 127.0.0.1 at 2015-04-15 20:10:02 -0400
+
+
+Started GET "/assets/styles/list.self-35bb350b1f853993485fcf2316cc2b3c1bcf21db5a53b9f63503578fc57c8960.css?body=1" for 127.0.0.1 at 2015-04-15 20:10:02 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:10:07 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1858ms (Views: 137.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/nbaplayers.self-ecafd790dfbdb4ab1303a351f2ddb7d38f4438856905f372f13d656d83184df1.css?body=1" for 127.0.0.1 at 2015-04-15 20:10:09 -0400
+
+
+Started GET "/assets/styles/list.self-60a617d6bd07d84a5d7f05edefe92f5d534b988e7ea9635be54b5b9b76410683.css?body=1" for 127.0.0.1 at 2015-04-15 20:10:09 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:10:12 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1100ms (Views: 39.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:10:41 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1511ms (Views: 104.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:11:14 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (52.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1323ms (Views: 173.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-f81ca9e4fa7b280e24ae9f371687c9f6b2e728f1e639108815772a8a54f936a4.css?body=1" for 127.0.0.1 at 2015-04-15 20:11:15 -0400
+
+
+Started GET "/assets/styles/list.self-568fac20088e992a4720077f7c78b71aa5e0b2cfd1704e51b22694a99f44aa84.css?body=1" for 127.0.0.1 at 2015-04-15 20:11:15 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:11:25 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (56.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1268ms (Views: 179.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-c1e150ca8f1aba2f8e8d3c4f8f28525a00d9076e23725ee37de3569c6ed15e50.css?body=1" for 127.0.0.1 at 2015-04-15 20:11:26 -0400
+
+
+Started GET "/assets/styles/list.self-6efbb9a1c7487cae805fd1096ea669d173ba8ea78490f4c86dd326c103df9c58.css?body=1" for 127.0.0.1 at 2015-04-15 20:11:26 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:11:32 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (4.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1493ms (Views: 133.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-48211f4aaff5930556329cf849c2bb94a7deab56b9a405558c4fa95a807c2aae.css?body=1" for 127.0.0.1 at 2015-04-15 20:11:34 -0400
+
+
+Started GET "/assets/styles/list.self-92ce636d7770c9d5141874eedf952a9080d6bc193f844a7de48fab81ff26cd38.css?body=1" for 127.0.0.1 at 2015-04-15 20:11:34 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:11:45 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1512ms (Views: 133.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/nbaplayers.self-718451503937dc5c9fc2ed413e6c5544469f4e2f54f857c8282ec82250f9c15b.css?body=1" for 127.0.0.1 at 2015-04-15 20:11:47 -0400
+
+
+Started GET "/assets/styles/list.self-82a9918f326c7145bee9f50c4f0d47ab45b8ec9dbea91f424ded7a5275e10b87.css?body=1" for 127.0.0.1 at 2015-04-15 20:11:47 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:11:58 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1253ms (Views: 134.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-86e0f20ca9606ef8232a106695cd527dc29aad7b5fe8578768f99dfb393c60e8.css?body=1" for 127.0.0.1 at 2015-04-15 20:12:00 -0400
+
+
+Started GET "/assets/styles/list.self-079bf1ff8aa0201740795cc3cc63271353eed3df166834d76eb0c1ae3e9de7db.css?body=1" for 127.0.0.1 at 2015-04-15 20:12:00 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:12:25 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (4.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1044ms (Views: 123.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-526fbeb770fea607b903f5592a24de72fd215f06baa4b4df9bb78c8e4bc59b5e.css?body=1" for 127.0.0.1 at 2015-04-15 20:12:26 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:12:32 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1197ms (Views: 126.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-dc414f0f2dc217058d563399fe5ff095cf85e83c782855780d10e87d65c12874.css?body=1" for 127.0.0.1 at 2015-04-15 20:12:33 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:12:37 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1101ms (Views: 125.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-68ff3363dd86e2b20df6cc311cf04008be84670c44a65499b4ee5ad2f8258b6e.css?body=1" for 127.0.0.1 at 2015-04-15 20:12:38 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:12:44 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1154ms (Views: 71.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/nbaplayers.self-e26fb50685001d8243eb090823608c55f5d2a47f079ddb66d16d52feb0bceb9a.css?body=1" for 127.0.0.1 at 2015-04-15 20:12:45 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:14:19 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (56.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1099ms (Views: 136.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-c95e0d06b01a786e14933de7d57d9ba21f400beff1a76462bad4f88194e43135.css?body=1" for 127.0.0.1 at 2015-04-15 20:14:20 -0400
+
+
+Started GET "/assets/styles/list.self-f1e610276d65d96ac0dae804faf2abbddbdebd3a80bfbeee092bfadaefb9b8a3.css?body=1" for 127.0.0.1 at 2015-04-15 20:14:20 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:14:28 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (4.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1087ms (Views: 135.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/styles/list.self-22b654ddca6d37fd4f250194ae5fed0fa5da3589390ba32c059f46d0fbf09a38.css?body=1" for 127.0.0.1 at 2015-04-15 20:14:29 -0400
+
+
+Started GET "/assets/nbaplayers.self-1840d64284cf27548bddfdd24b6d7b625362d772f6c81289255cf2279cde0dd8.css?body=1" for 127.0.0.1 at 2015-04-15 20:14:29 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:14:34 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (4.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1216ms (Views: 140.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-69b7f4b126ff9753995ec89fe4811307bea416fdaac9ac4643161f378eba7954.css?body=1" for 127.0.0.1 at 2015-04-15 20:14:35 -0400
+
+
+Started GET "/assets/styles/list.self-8dda342f2430100e26ddac26d6c96d0802cf31f7e22a7bd4d2e16186a555798d.css?body=1" for 127.0.0.1 at 2015-04-15 20:14:35 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:14:50 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (4.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1066ms (Views: 136.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-024964def0f23c2ad937e6d1ce3bba575c2c29a78ea6cbfce6ed7133e6442970.css?body=1" for 127.0.0.1 at 2015-04-15 20:14:51 -0400
+
+
+Started GET "/assets/styles/list.self-86663889db32fdbe156d627d9ba5951e8c65d5bc4a823126127e11399faed691.css?body=1" for 127.0.0.1 at 2015-04-15 20:14:51 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:15:07 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (4.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1126ms (Views: 135.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/nbaplayers.self-6878ce44f37a4e9f17c39efc7ed21a3a54a559806982dc594650d86c19696919.css?body=1" for 127.0.0.1 at 2015-04-15 20:15:08 -0400
+
+
+Started GET "/assets/styles/list.self-441025eeb2bc522299d40fe562d0e5200196588c06ad39b016a88fe76648f5fe.css?body=1" for 127.0.0.1 at 2015-04-15 20:15:08 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:15:42 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 941ms (Views: 85.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-5df66533545ff8ec0c160881a7868b1ad3aaebfaf75d38d0cfe756381de4a281.css?body=1" for 127.0.0.1 at 2015-04-15 20:15:43 -0400
+
+
+Started GET "/assets/styles/list.self-e1472690e723f6b2035a0d6533aa8f61e9f828b194cfb7add4e451659ffd5ca0.css?body=1" for 127.0.0.1 at 2015-04-15 20:15:43 -0400
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 20:15:51 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (55.3ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (111.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 156ms (Views: 144.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-15 20:15:52 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.3ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (4.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 53ms (Views: 51.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 20:15:53 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (1.3ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (1.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 37ms (Views: 34.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-15 20:15:54 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 84ms (Views: 83.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 20:15:55 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (1.4ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (1.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-15 20:15:56 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (3.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 20:15:58 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (1.3ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (1.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-15 20:16:03 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 91ms (Views: 89.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:16:05 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (6.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 965ms (Views: 39.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:16:06 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 873ms (Views: 38.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:16:28 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1165ms (Views: 142.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/nbaplayers.self-96a9e4977639175d4167995d363fa5fb26bd4d4eeee759988d50e2ceac2f0595.css?body=1" for 127.0.0.1 at 2015-04-15 20:16:29 -0400
+
+
+Started GET "/assets/styles/list.self-6c9a0c6231e07b4318f72cf5f73a180c4fa80c7514a1d6286f03700c8e92f7fa.css?body=1" for 127.0.0.1 at 2015-04-15 20:16:29 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:16:43 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (4.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1105ms (Views: 140.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/nbaplayers.self-8dd4d8a93cb874ec6d0ed17cb5cbf47ef371528a51358733a7da6205bb5d888f.css?body=1" for 127.0.0.1 at 2015-04-15 20:16:44 -0400
+
+
+Started GET "/assets/styles/list.self-ba4f70685e366a3ca01e5c505155b14cc25c6bee4562df7d245779df85d48443.css?body=1" for 127.0.0.1 at 2015-04-15 20:16:44 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:16:52 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (4.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1052ms (Views: 141.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/styles/list.self-021f96b994d528b1573cd9034c04f9897eab62fe7d51909ef1049c876e8a5310.css?body=1" for 127.0.0.1 at 2015-04-15 20:16:53 -0400
+
+
+Started GET "/assets/nbaplayers.self-2269818a51a731c700392787e22f630b84822d718325007a089662c6a47be195.css?body=1" for 127.0.0.1 at 2015-04-15 20:16:53 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:17:09 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (4.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1098ms (Views: 139.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-5c6de04984952657bb79f282cf6280669b9e440925234de8c722b2e00244d82e.css?body=1" for 127.0.0.1 at 2015-04-15 20:17:10 -0400
+
+
+Started GET "/assets/styles/list.self-a907f5a2a5ae487de5f946f647dacb67901c2abc25f420ac9067912c209efc67.css?body=1" for 127.0.0.1 at 2015-04-15 20:17:10 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:17:19 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (4.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1005ms (Views: 141.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-b5e95776155aaaab897831beceaa8c2ff1ea3d8298ba5edf7463cf6f7ca70d00.css?body=1" for 127.0.0.1 at 2015-04-15 20:17:20 -0400
+
+
+Started GET "/assets/styles/list.self-88f6f6e1ab8115ce2cff1d8c187fc82a05b4445170715100541ed3a71f2ce13a.css?body=1" for 127.0.0.1 at 2015-04-15 20:17:20 -0400
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:17:27 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1059ms (Views: 85.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/nbaplayers.self-3ed343d270488aa97991c796cf2db0625096efc1d50b2daa0a1c7ac4e1a15536.css?body=1" for 127.0.0.1 at 2015-04-15 20:17:28 -0400
+
+
+Started GET "/assets/styles/list.self-269fce44f52c829039981001bfbdfe043fbe27e35051fa3a22747aceafea46eb.css?body=1" for 127.0.0.1 at 2015-04-15 20:17:28 -0400
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 20:17:59 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (3.3ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (4.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 99ms (Views: 96.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-15 20:18:00 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 20:18:01 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (2.7ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (3.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-15 20:18:02 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.3ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (2.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 49ms (Views: 47.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-15 20:23:15 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-15 20:23:15 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 94ms (Views: 93.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 20:23:16 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (2.0ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (2.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-15 20:23:17 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 20:23:17 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (3.5ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (4.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-15 20:23:18 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (3.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 38ms (Views: 36.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 20:23:19 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (1.2ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (1.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 95ms (Views: 94.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-15 20:23:25 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 20:23:26 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (1.4ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (1.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-15 20:23:27 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-15 20:23:39 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (3.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 20:23:40 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (3.4ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (4.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 102ms (Views: 100.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-15 20:23:41 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-15 20:27:49 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (50.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 426ms (Views: 389.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 20:27:51 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (6.0ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (62.1ms)
+Completed 500 Internal Server Error in 1132ms
+
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x007fa3615f6ac0>):
+    1: <%= form_for(@nbaplayer) do |f| %>
+    2:   <% if @nbaplayer.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@nbaplayer.errors.count, "error") %> prohibited this nbaplayer from being saved:</h2>
+  app/views/nbaplayers/_form.html.erb:1:in `_app_views_nbaplayers__form_html_erb___2839611069543937232_70169851038480'
+  app/views/nbaplayers/new.html.erb:3:in `_app_views_nbaplayers_new_html_erb___4392171455105846503_70169850974280'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (72.0ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 20:27:53 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (2.1ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 1073ms
+
+ActionView::Template::Error (undefined method `model_name' for #<Hash:0x007fa3609e3940>):
+    1: <%= form_for(@nbaplayer) do |f| %>
+    2:   <% if @nbaplayer.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@nbaplayer.errors.count, "error") %> prohibited this nbaplayer from being saved:</h2>
+  app/views/nbaplayers/_form.html.erb:1:in `_app_views_nbaplayers__form_html_erb___2839611069543937232_70169842449040'
+  app/views/nbaplayers/new.html.erb:3:in `_app_views_nbaplayers_new_html_erb___4392171455105846503_70169836453260'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (20.8ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-15 20:31:47 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/brandon/github/tc359_rails_final/app/controllers/nbaplayers_controller.rb:112: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/nbaplayers_controller.rb:112: syntax error, unexpected $end, expecting keyword_end
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (49.8ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-15 20:32:02 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (78.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 365ms (Views: 362.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/nbaplayers/new" for 127.0.0.1 at 2015-04-15 20:32:04 -0400
+Processing by NbaplayersController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/_form.html.erb (105.4ms)
+  Rendered nbaplayers/new.html.erb within layouts/application (107.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 148ms (Views: 145.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:32:07 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 1132ms
+
+NoMethodError (undefined method `each' for nil:NilClass):
+  app/controllers/nbaplayers_controller.rb:36:in `list'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (21.1ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:32:08 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 1121ms
+
+NoMethodError (undefined method `each' for nil:NilClass):
+  app/controllers/nbaplayers_controller.rb:36:in `list'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (20.6ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-15 20:32:49 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (5.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1161ms (Views: 41.3ms | ActiveRecord: 0.5ms)
