@@ -13,32 +13,32 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<nav class="navbar navbar-default navbar-static-top">
-  <div class="menu">
-    <ul id="nav">
-      <li><%= link_to 'Home', root_path %></li>
-      <% if user_signed_in? %>
-        <li><%= link_to 'Add an NBA player', new_nbaplayer_path %></li>
-      <% end %>
-      <li><%= link_to 'NBA Player Database', nbaplayers_path %></li>
-    </ul>
-  </div>
-  <div class="login">
-    <% if user_signed_in? %>
-      <li>Signed in in as <%= current_user.email %></li>
-      <li><%= link_to "Sign Out", sign_out_path, method: :delete %></li>
-    <% else %>
-       <li><%= link_to "Sign In", sign_in_path %></li>
-    <% end %>
-  </div>
-</nav>
-<div class="container-fluid">
-  <% flash.each do |type, message| %>
-    <div class="<%= type %>">
-      <p><%= message %></p>
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="menu">
+      <ul id="nav">
+        <li><%= link_to 'Home', root_path %></li>
+        <% if user_signed_in? %>
+          <li><%= link_to 'Lineup', list_path %></li>
+        <% end %>
+        <li><%= link_to 'NBA Players', nbaplayers_path %></li>
+      </ul>
     </div>
-  <% end %>
-  <%= yield %>
-</div>
+    <div class="login">
+      <% if user_signed_in? %>
+        <li>Signed in in as <%= current_user.email %></li>
+        <li><%= link_to "Sign Out", sign_out_path, method: :delete %></li>
+      <% else %>
+         <li><%= link_to "Sign In", sign_in_path %></li>
+      <% end %>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <% flash.each do |type, message| %>
+      <div class="<%= type %>">
+        <p><%= message %></p>
+      </div>
+    <% end %>
+    <%= yield %>
+  </div>
 </body>
 </html>

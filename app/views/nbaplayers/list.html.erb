@@ -1,5 +1,5 @@
 <section class="plist">
-  <h3>Listing MLB Players</h3>
+  <h3>Listing NBA Players</h3>
   <table class="players-list-table">
     <thead>
       <tr>
@@ -7,17 +7,18 @@
         <th>Position</th>
         <th>Team</th>
         <th>Average Points</th>
-        <th>Starting Lineup</th>
+        <th>Cost</th>
         <th colspan="3"></th>
       </tr>
     </thead>
     <tbody>
       <% @players.each do |player| %>
         <tr>
-          <td><%= player[:pname] %></td>
-          <td><%= player[:ppos] %></td>
-          <td><%= player[:pcost] %></td>
-          <td><%= player[:pfppg] %></td>
+          <td><%= player[:position] %></td>
+          <td><%= player[:name] %></td>
+          <td><%= player[:team] %></td>
+          <td><%= player[:avgpoints] %></td>
+          <td><%= player[:cost] %></td>
         </tr>
       <% end %>
     </tbody>

@@ -11,16 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150401010745) do
+ActiveRecord::Schema.define(version: 20150419210439) do
 
   create_table "nbaplayers", force: :cascade do |t|
     t.text     "name"
     t.string   "position"
     t.text     "team"
-    t.boolean  "is_starting_lineup"
-    t.datetime "created_at",         null: false
-    t.datetime "updated_at",         null: false
-    t.integer  "avgpoints"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "cost"
+    t.float    "avgpoints"
   end
 
   create_table "users", force: :cascade do |t|

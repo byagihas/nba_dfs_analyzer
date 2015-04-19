@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   resources :nbaplayers
   resources :sessions, only: [:new, :create, :destroy]
 
-  get '/list' => 'nbaplayers#list'
+  get '/lineup' => 'sessions#lineup'
   get '/sign-in' => 'sessions#new'
   delete '/sign-out' => 'sessions#destroy'
   # The priority is based upon order of creation: first created -> highest priority.

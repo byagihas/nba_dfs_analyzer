@@ -1,12 +1,33 @@
-.plist{
+@import "base/variables.scss";
 
+.plist{
+  h3{
+    text-align: center;
+  }
   .players-list-table{
-    background-color: gray;
+    margin: 0 auto;
+    vertical-align: middle;
+    background-color: $silver;
     thead{
       padding: 1em;
+      tr{
+        th{
+          font-size: 1.2em;
+          text-align: center;
+          padding: .5em;
+        }
+      }
+    }
+    tbody{
+      tr{
+        td{
+          
+        }
+      }
     }
     td{
-      padding: 1em;
+      text-align: center;
+      padding: .5em;
     }
   }
 }

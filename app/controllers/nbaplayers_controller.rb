@@ -9,11 +9,7 @@ class NbaplayersController < ApplicationController
   # GET /nbaplayers
   # GET /nbaplayers.json
   def index
-    @nbaplayers = Nbaplayer.all
-  end
-
-  def list
-    url = "http://www.rotowire.com/daily/mlb/optimizer.htm"
+    url = "http://www.rotowire.com/daily/nba/optimizer.htm"
     agent = Mechanize.new { |agent| agent.user_agent_alias = "Mac Safari" }
     html = agent.get(url).body
 
@@ -24,19 +20,24 @@ class NbaplayersController < ApplicationController
     @players = list.collect do |l|
       player = {}
       [
-        [:ppos, 'td[4]/text()'],
-        [:pname, 'td[2]/a/text()'],
-        [:pfppg, 'td[7]/text()'],
-        [:pcost, 'td[6]/text()'],
+        [:id, 'td[1]/data-value'],
+        [:position, 'td[5]/text()'],
+        [:name, 'td[2]/a/text()'],
+        [:avgpoints, 'td[7]/text()'],
+        [:team, 'td[3]/text()'],
+        [:cost, 'td[6]/text()']
       ].each do |name, xpath|
         player[name] = l.at_xpath(xpath).to_s.strip
       end
-      player
+    player
     end
-end
-
-  def add_to_lineup
+    @nbaplayers = @players
   end
+
+  def list
+
+  end
+
 
   # GET /nbaplayers/1
   # GET /nbaplayers/1.json
@@ -100,6 +101,6 @@ end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def nbaplayer_params
-      params.require(:nbaplayer).permit(:name, :position, :team, :avgpoints, :is_starting_lineup)
+      params.require(:nbaplayer).permit(:name, :position, :team, :avgpoints, :cost)
     end
 end
