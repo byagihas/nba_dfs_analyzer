@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 require 'mechanize'
 require 'nokogiri'
 require 'open-uri'
 
-=======
->>>>>>> 3083326312dc6908e454a7122e912b7f0a314b7b
 class NbaplayersController < ApplicationController
   before_action :only_allow_signed_in_users, except: [:index, :show, :home]
   before_action :set_nbaplayer, only: [:show, :edit, :update, :destroy]
@@ -15,7 +12,6 @@ class NbaplayersController < ApplicationController
     @nbaplayers = Nbaplayer.all
   end
 
-<<<<<<< HEAD
   def list
     url = "http://www.rotowire.com/daily/nba/optimizer.htm"
     agent = Mechanize.new { |agent| agent.user_agent_alias = "Mac Safari" }
@@ -39,9 +35,6 @@ class NbaplayersController < ApplicationController
     player
     end
   end
-
-=======
->>>>>>> 3083326312dc6908e454a7122e912b7f0a314b7b
   # GET /nbaplayers/1
   # GET /nbaplayers/1.json
   def show
@@ -60,11 +53,7 @@ class NbaplayersController < ApplicationController
   # POST /nbaplayers.json
   def create
     @nbaplayer = Nbaplayer.new(nbaplayer_params)
-    @nbaplayers = @players
     respond_to do |format|
-      if @nbaplayer.save
-        format.html { redirect_to nbaplayers_path }
-        respond_to do |format|
       if @nbaplayer.save
         format.html { redirect_to nbaplayers_path}
         format.json { render :show, status: :created, location: @nbaplayer }
@@ -94,7 +83,7 @@ class NbaplayersController < ApplicationController
   def destroy
     @nbaplayer.destroy
     respond_to do |format|
-      format.html { redirect_to nbaplayers_url}
+      format.html { redirect_to nbaplayers_url }
       format.json { head :no_content }
     end
   end
@@ -109,4 +98,5 @@ class NbaplayersController < ApplicationController
     def nbaplayer_params
       params.permit(:name, :position, :team, :avgpoints, :cost)
     end
+
 end
