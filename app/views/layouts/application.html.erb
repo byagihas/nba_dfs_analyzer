@@ -18,9 +18,9 @@
       <ul id="nav">
         <li><%= link_to 'Home', root_path %></li>
         <% if user_signed_in? %>
-          <li><%= link_to 'Lineup', list_path %></li>
+          <li><%= link_to 'Add NBA Players', list_path %></li>
         <% end %>
-        <li><%= link_to 'NBA Players', nbaplayers_path %></li>
+        <li><%= link_to 'User Lineup', nbaplayers_path %></li>
       </ul>
     </div>
     <div class="login">

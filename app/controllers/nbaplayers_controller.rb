@@ -9,6 +9,10 @@ class NbaplayersController < ApplicationController
   # GET /nbaplayers
   # GET /nbaplayers.json
   def index
+    @nbaplayers = Nbaplayer.all
+  end
+
+  def list
     url = "http://www.rotowire.com/daily/nba/optimizer.htm"
     agent = Mechanize.new { |agent| agent.user_agent_alias = "Mac Safari" }
     html = agent.get(url).body
@@ -20,7 +24,6 @@ class NbaplayersController < ApplicationController
     @players = list.collect do |l|
       player = {}
       [
-        [:id, 'td[1]/data-value'],
         [:position, 'td[5]/text()'],
         [:name, 'td[2]/a/text()'],
         [:avgpoints, 'td[7]/text()'],
@@ -31,13 +34,7 @@ class NbaplayersController < ApplicationController
       end
     player
     end
-    @nbaplayers = @players
   end
-
-  def list
-
-  end
-
 
   # GET /nbaplayers/1
   # GET /nbaplayers/1.json
@@ -57,7 +54,7 @@ class NbaplayersController < ApplicationController
   # POST /nbaplayers.json
   def create
     @nbaplayer = Nbaplayer.new(nbaplayer_params)
-
+    @nbaplayers = @players
     respond_to do |format|
       if @nbaplayer.save
         format.html { redirect_to @nbaplayer, notice: 'Nbaplayer was successfully created.' }
@@ -101,6 +98,6 @@ class NbaplayersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def nbaplayer_params
-      params.require(:nbaplayer).permit(:name, :position, :team, :avgpoints, :cost)
+      params.permit(:name, :position, :team, :avgpoints, :cost)
     end
 end
