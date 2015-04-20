@@ -1,4 +1,4 @@
-<section class="plist">
+<section class="userlineup">
   <p id="notice"><%= notice %></p>
   <h3>Listing NBA Players</h3>
   <table class="players-list-table">
@@ -30,9 +30,4 @@
     </tbody>
   </table>
   <br>
-  <% if user_signed_in? %>
-    <div class="links">
-      <%= link_to 'New NBA Player', new_nbaplayer_path %>
-    </div>
-  <% end %>
 </section>
