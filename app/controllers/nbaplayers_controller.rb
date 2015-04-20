@@ -60,17 +60,13 @@ class NbaplayersController < ApplicationController
   # POST /nbaplayers.json
   def create
     @nbaplayer = Nbaplayer.new(nbaplayer_params)
-<<<<<<< HEAD
     @nbaplayers = @players
     respond_to do |format|
       if @nbaplayer.save
         format.html { redirect_to nbaplayers_path }
-=======
-
-    respond_to do |format|
+        respond_to do |format|
       if @nbaplayer.save
-        format.html { redirect_to @nbaplayer, notice: 'Nbaplayer was successfully created.' }
->>>>>>> 3083326312dc6908e454a7122e912b7f0a314b7b
+        format.html { redirect_to nbaplayers_path}
         format.json { render :show, status: :created, location: @nbaplayer }
       else
         format.html { render :new }
@@ -98,11 +94,7 @@ class NbaplayersController < ApplicationController
   def destroy
     @nbaplayer.destroy
     respond_to do |format|
-<<<<<<< HEAD
       format.html { redirect_to nbaplayers_url}
-=======
-      format.html { redirect_to nbaplayers_url, notice: 'Nbaplayer was successfully destroyed.' }
->>>>>>> 3083326312dc6908e454a7122e912b7f0a314b7b
       format.json { head :no_content }
     end
   end
@@ -115,10 +107,6 @@ class NbaplayersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def nbaplayer_params
-<<<<<<< HEAD
       params.permit(:name, :position, :team, :avgpoints, :cost)
-=======
-      params.require(:nbaplayer).permit(:name, :position, :team, :avgpoints, :is_starting_lineup)
->>>>>>> 3083326312dc6908e454a7122e912b7f0a314b7b
     end
 end
