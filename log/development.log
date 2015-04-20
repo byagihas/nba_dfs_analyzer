@@ -26469,3 +26469,1330 @@ Processing by NbaplayersController#index as HTML
   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
 Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-20 10:23:41 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (2.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 603ms (Views: 553.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/base/variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-20 10:23:42 -0400
+
+
+Started GET "/assets/nbaplayers.self-0c99218094128dc505c211bb15e277367e942f50057d383e55f35b0e1cecf83c.css?body=1" for 127.0.0.1 at 2015-04-20 10:23:42 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-20 10:23:42 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-04-20 10:23:42 -0400
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-20 10:23:42 -0400
+
+
+Started GET "/assets/styles/list.self-180143331844b5c0e1407e686a2ea10f08956f27d27d5293a49dca5dda2c8219.css?body=1" for 127.0.0.1 at 2015-04-20 10:23:42 -0400
+
+
+Started GET "/assets/styles/players.self-79d9a00ef891949cd2567773214879a767409db533905af31c465b23ac9deea8.css?body=1" for 127.0.0.1 at 2015-04-20 10:23:42 -0400
+
+
+Started GET "/assets/application.self-969c99da9c5dbf3e75ab4ab4dc5dfd91c82cd904b829d22a31ebd4f468376172.css?body=1" for 127.0.0.1 at 2015-04-20 10:23:42 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-04-20 10:23:42 -0400
+
+
+Started GET "/assets/nbaplayers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-04-20 10:23:42 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-04-20 10:23:42 -0400
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-04-20 10:23:42 -0400
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-20 10:23:46 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-04-20 10:23:55 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HNXmFACHFtcF1AIjiLxIi9lYD14eTe79ZZ1F3Bn0ME+LJ5ryQr46PytHqpFA1vfekl8DKXyMFQLCK1vexvuMaw==", "email"=>"fritzchr@msu.edu", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "fritzchr@msu.edu"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 86ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-20 10:23:55 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-20 10:23:58 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (59.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 371ms (Views: 104.2ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/nbaplayers?avgpoints=49.4&cost=%2411%2C800&name=Davis%2C+Anthony&position=PF&team=NOP" for 127.0.0.1 at 2015-04-20 10:24:12 -0400
+Processing by NbaplayersController#create as HTML
+  Parameters: {"authenticity_token"=>"4n+F46FpyJi0xJVk4ZAWEH9pfSvCksNyOl29NOeHQ/h1jfkF41DkcJpXPdYp+qlFNG5xXKBTOI2d66M2OIj/3A==", "avgpoints"=>"49.4", "cost"=>"$11,800", "name"=>"Davis, Anthony", "position"=>"PF", "team"=>"NOP"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Unpermitted parameter: authenticity_token
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "nbaplayers" ("name", "position", "team", "avgpoints", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["name", "Davis, Anthony"], ["position", "PF"], ["team", "NOP"], ["avgpoints", 49.4], ["cost", "$11,800"], ["created_at", "2015-04-20 14:24:12.578329"], ["updated_at", "2015-04-20 14:24:12.578329"]]
+  [1m[36m (131.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/nbaplayers/17
+Completed 302 Found in 188ms (ActiveRecord: 131.9ms)
+
+
+Started GET "/nbaplayers/17" for 127.0.0.1 at 2015-04-20 10:24:12 -0400
+Processing by NbaplayersController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1  [["id", 17]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/show.html.erb within layouts/application (1.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 99ms (Views: 97.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:24:14 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (3.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-20 10:24:34 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:24:36 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (3.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nbaplayers/17" for 127.0.0.1 at 2015-04-20 10:25:11 -0400
+Processing by NbaplayersController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1  [["id", 17]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/show.html.erb within layouts/application (1.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 106ms (Views: 104.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:25:13 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (2.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-20 10:25:14 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (16.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 416ms (Views: 63.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:25:16 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (2.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 106ms (Views: 105.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-20 10:46:44 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 1026ms (Views: 1017.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-20 10:46:47 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (13.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 479ms (Views: 57.3ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/nbaplayers?avgpoints=49.4&cost=%2411%2C800&name=Davis%2C+Anthony&position=PF&team=NOP" for 127.0.0.1 at 2015-04-20 10:47:00 -0400
+Processing by NbaplayersController#create as HTML
+  Parameters: {"authenticity_token"=>"gK9gH0BmMQks+8vqiZ+Ua3SEaNJxF8iiCiCjWn1oCtcXXRz5Al8d4QJoY1hB9Ss+P4NkpRPWM12tlr1Yome28w==", "avgpoints"=>"49.4", "cost"=>"$11,800", "name"=>"Davis, Anthony", "position"=>"PF", "team"=>"NOP"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Unpermitted parameter: authenticity_token
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "nbaplayers" ("name", "position", "team", "avgpoints", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Davis, Anthony"], ["position", "PF"], ["team", "NOP"], ["avgpoints", 49.4], ["cost", "$11,800"], ["created_at", "2015-04-20 14:47:00.287005"], ["updated_at", "2015-04-20 14:47:00.287005"]]
+  [1m[35m (249.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/nbaplayers/18
+Completed 302 Found in 267ms (ActiveRecord: 250.5ms)
+
+
+Started GET "/nbaplayers/18" for 127.0.0.1 at 2015-04-20 10:47:00 -0400
+Processing by NbaplayersController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1[0m  [["id", 18]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/show.html.erb within layouts/application (1.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 109ms (Views: 107.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:47:03 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (3.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 48ms (Views: 46.5ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/nbaplayers/18" for 127.0.0.1 at 2015-04-20 10:47:07 -0400
+Processing by NbaplayersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"SCMYXmfrFOEmCBIU8u5gucv42+iIvJXNMqnn34J31S/f0WS4JdI4CQibuqY6hN/sgP/Xn+p9bjKVH/ndXXhpCw==", "id"=>"18"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "nbaplayers" WHERE "nbaplayers"."id" = ?[0m  [["id", 18]]
+  [1m[35m (136.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/nbaplayers
+Completed 302 Found in 140ms (ActiveRecord: 136.9ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:47:07 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (3.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:49:01 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (23.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 374ms (Views: 362.4ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/nbaplayers/17" for 127.0.0.1 at 2015-04-20 10:49:06 -0400
+Processing by NbaplayersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lgYZqARframbmNd0Wo8WkNSIqtZXLymIHfn/cAfq0esB9GVORmaBQbULf8aS5anFn4+moTXu0ne6T+Fy2OVtzw==", "id"=>"17"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1  [["id", 17]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "nbaplayers" WHERE "nbaplayers"."id" = ?  [["id", 17]]
+  [1m[36m (172.7ms)[0m  [1mcommit transaction[0m
+Completed 406 Not Acceptable in 177ms
+
+ActionController::UnknownFormat - ActionController::UnknownFormat:
+  actionpack (4.2.0) lib/action_controller/metal/mime_responds.rb:218:in `respond_to'
+  app/controllers/nbaplayers_controller.rb:87:in `destroy'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:151:in `block in halting_and_conditional'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:151:in `block in halting_and_conditional'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/4221c10137c6a800/variables" for 127.0.0.1 at 2015-04-20 10:49:07 -0400
+
+
+Started GET "/nbaplayers/17" for 127.0.0.1 at 2015-04-20 10:49:31 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1  [["id", 17]]
+Completed 404 Not Found in 17ms
+
+ActiveRecord::RecordNotFound - Couldn't find Nbaplayer with 'id'=17:
+  activerecord (4.2.0) lib/active_record/core.rb:154:in `find'
+  app/controllers/nbaplayers_controller.rb:96:in `set_nbaplayer'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:427:in `block in make_lambda'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:145:in `block in halting_and_conditional'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:151:in `block in halting_and_conditional'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/8d39debbe878104b/variables" for 127.0.0.1 at 2015-04-20 10:49:31 -0400
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:49:37 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (19.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 365ms (Views: 363.6ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/nbaplayers/16" for 127.0.0.1 at 2015-04-20 10:49:40 -0400
+Processing by NbaplayersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"bx5fGrzFubzO0y3AhsVEwi7h3jZH6xHHLiaOQLnmuXb47CP8/vyVVOBAhXJOr/uXZebSQSUq6jiJkJBCZukFUg==", "id"=>"16"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1  [["id", 16]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "nbaplayers" WHERE "nbaplayers"."id" = ?  [["id", 16]]
+  [1m[36m (137.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/nbaplayers
+Completed 302 Found in 141ms (ActiveRecord: 138.4ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:49:40 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-20 10:49:42 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (13.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 494ms (Views: 123.4ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/nbaplayers?avgpoints=49.4&cost=%2411%2C800&name=Davis%2C+Anthony&position=PF&team=NOP" for 127.0.0.1 at 2015-04-20 10:49:44 -0400
+Processing by NbaplayersController#create as HTML
+  Parameters: {"authenticity_token"=>"kAaEUjnb901Lm3BjT7ZK22G8XKSzxXOccmFtsDq+W3kH9Pi0e+LbpWUI2NGH3PWOKrtQ09EEiGPV13Oy5bHnXQ==", "avgpoints"=>"49.4", "cost"=>"$11,800", "name"=>"Davis, Anthony", "position"=>"PF", "team"=>"NOP"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Unpermitted parameter: authenticity_token
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "nbaplayers" ("name", "position", "team", "avgpoints", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Davis, Anthony"], ["position", "PF"], ["team", "NOP"], ["avgpoints", 49.4], ["cost", "$11,800"], ["created_at", "2015-04-20 14:49:44.234988"], ["updated_at", "2015-04-20 14:49:44.234988"]]
+  [1m[35m (115.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/nbaplayers/19
+Completed 302 Found in 123ms (ActiveRecord: 116.3ms)
+
+
+Started GET "/nbaplayers/19" for 127.0.0.1 at 2015-04-20 10:49:44 -0400
+Processing by NbaplayersController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1[0m  [["id", 19]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/show.html.erb within layouts/application (1.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 55ms (Views: 53.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:49:46 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (2.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:50:14 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (23.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 366ms (Views: 355.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-20 10:50:16 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (16.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 476ms (Views: 141.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/nbaplayers?avgpoints=49.4&cost=%2411%2C800&name=Davis%2C+Anthony&position=PF&team=NOP" for 127.0.0.1 at 2015-04-20 10:50:18 -0400
+Processing by NbaplayersController#create as HTML
+  Parameters: {"authenticity_token"=>"qM9xpjuII9qsLdj71Lgn/bDzC6HmU3WfTuPLYeUlBAI/PQ1AebEPMoK+cEkc0pio+/QH1oSSjmDpVdVjOiq4Jg==", "avgpoints"=>"49.4", "cost"=>"$11,800", "name"=>"Davis, Anthony", "position"=>"PF", "team"=>"NOP"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Unpermitted parameter: authenticity_token
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "nbaplayers" ("name", "position", "team", "avgpoints", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["name", "Davis, Anthony"], ["position", "PF"], ["team", "NOP"], ["avgpoints", 49.4], ["cost", "$11,800"], ["created_at", "2015-04-20 14:50:18.334234"], ["updated_at", "2015-04-20 14:50:18.334234"]]
+  [1m[36m (135.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/nbaplayers/20
+Completed 302 Found in 146ms (ActiveRecord: 136.4ms)
+
+
+Started GET "/nbaplayers/20" for 127.0.0.1 at 2015-04-20 10:50:18 -0400
+Processing by NbaplayersController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1  [["id", 20]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/show.html.erb within layouts/application (1.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 48ms (Views: 45.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nbaplayers/20/edit" for 127.0.0.1 at 2015-04-20 10:50:28 -0400
+Processing by NbaplayersController#edit as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1  [["id", 20]]
+  Rendered nbaplayers/_form.html.erb (11.9ms)
+  Rendered nbaplayers/edit.html.erb within layouts/application (14.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 123ms (Views: 121.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:50:31 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (3.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/nbaplayers/20" for 127.0.0.1 at 2015-04-20 10:50:39 -0400
+Processing by NbaplayersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kwQ45UOaFOQCI5/ZHX2U8w4RGfmo4UV0U9DeJEyxwekE9kQDAaM4DCywN2vVFyumRRYVjsogvov0ZsAmk759zQ==", "id"=>"20"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1  [["id", 20]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "nbaplayers" WHERE "nbaplayers"."id" = ?  [["id", 20]]
+  [1m[36m (126.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/nbaplayers
+Completed 302 Found in 130ms (ActiveRecord: 126.9ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:50:39 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:51:12 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (22.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 371ms (Views: 358.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-20 10:51:15 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (13.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 673ms (Views: 120.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/nbaplayers?avgpoints=43.6&cost=%249%2C900&name=Curry%2C+Stephen&position=PG&team=GSW" for 127.0.0.1 at 2015-04-20 10:51:17 -0400
+Processing by NbaplayersController#create as HTML
+  Parameters: {"authenticity_token"=>"ZBzoTrfHxbZTSDuBEXjrtk7N4VwwX1NrPTnnL+K67hfz7pSo9f7pXn3bkzPZElTjBcrtK1KeqJSaj/ktPbVSMw==", "avgpoints"=>"43.6", "cost"=>"$9,900", "name"=>"Curry, Stephen", "position"=>"PG", "team"=>"GSW"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Unpermitted parameter: authenticity_token
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "nbaplayers" ("name", "position", "team", "avgpoints", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["name", "Curry, Stephen"], ["position", "PG"], ["team", "GSW"], ["avgpoints", 43.6], ["cost", "$9,900"], ["created_at", "2015-04-20 14:51:17.378144"], ["updated_at", "2015-04-20 14:51:17.378144"]]
+  [1m[36m (227.1ms)[0m  [1mcommit transaction[0m
+Redirected to 
+Completed 500 Internal Server Error in 235ms
+
+ActionController::ActionControllerError - Cannot redirect to nil!:
+  actionpack (4.2.0) lib/action_controller/metal/redirecting.rb:70:in `redirect_to'
+  actionpack (4.2.0) lib/action_controller/metal/flash.rb:57:in `redirect_to'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:61:in `block in redirect_to'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:60:in `redirect_to'
+  app/controllers/nbaplayers_controller.rb:60:in `block (2 levels) in create'
+  actionpack (4.2.0) lib/action_controller/metal/mime_responds.rb:216:in `respond_to'
+  app/controllers/nbaplayers_controller.rb:58:in `create'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:151:in `block in halting_and_conditional'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:151:in `block in halting_and_conditional'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/2ddb234c9f4c94c4/variables" for 127.0.0.1 at 2015-04-20 10:51:17 -0400
+
+
+Started POST "/nbaplayers?avgpoints=43.6&cost=%249%2C900&name=Curry%2C+Stephen&position=PG&team=GSW" for 127.0.0.1 at 2015-04-20 10:51:47 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#create as HTML
+  Parameters: {"authenticity_token"=>"ZBzoTrfHxbZTSDuBEXjrtk7N4VwwX1NrPTnnL+K67hfz7pSo9f7pXn3bkzPZElTjBcrtK1KeqJSaj/ktPbVSMw==", "avgpoints"=>"43.6", "cost"=>"$9,900", "name"=>"Curry, Stephen", "position"=>"PG", "team"=>"GSW"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Unpermitted parameter: authenticity_token
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "nbaplayers" ("name", "position", "team", "avgpoints", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["name", "Curry, Stephen"], ["position", "PG"], ["team", "GSW"], ["avgpoints", 43.6], ["cost", "$9,900"], ["created_at", "2015-04-20 14:51:47.414378"], ["updated_at", "2015-04-20 14:51:47.414378"]]
+  [1m[36m (127.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+Redirected to 
+Completed 500 Internal Server Error in 167ms
+
+NoMethodError - undefined method `to_model' for #<Nbaplayer::ActiveRecord_Relation:0x007f0174ac4640>:
+  activerecord (4.2.0) lib/active_record/relation/delegation.rb:136:in `method_missing'
+  activerecord (4.2.0) lib/active_record/relation/delegation.rb:99:in `method_missing'
+  actionpack (4.2.0) lib/action_dispatch/routing/polymorphic_routes.rb:253:in `handle_model'
+  actionpack (4.2.0) lib/action_dispatch/routing/polymorphic_routes.rb:267:in `handle_model_call'
+  actionpack (4.2.0) lib/action_dispatch/routing/url_for.rb:167:in `url_for'
+  actionpack (4.2.0) lib/action_controller/metal/redirecting.rb:95:in `_compute_redirect_to_location'
+  turbolinks (2.5.3) lib/turbolinks/xhr_headers.rb:21:in `_compute_redirect_to_location'
+  actionpack (4.2.0) lib/action_controller/metal/redirecting.rb:75:in `redirect_to'
+  actionpack (4.2.0) lib/action_controller/metal/flash.rb:57:in `redirect_to'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:61:in `block in redirect_to'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:60:in `redirect_to'
+  app/controllers/nbaplayers_controller.rb:60:in `block (2 levels) in create'
+  actionpack (4.2.0) lib/action_controller/metal/mime_responds.rb:216:in `respond_to'
+  app/controllers/nbaplayers_controller.rb:58:in `create'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:151:in `block in halting_and_conditional'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:151:in `block in halting_and_conditional'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/efbf139ca85f8e12/variables" for 127.0.0.1 at 2015-04-20 10:51:47 -0400
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:53:15 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (23.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 370ms (Views: 359.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-20 10:53:18 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (12.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 652ms (Views: 118.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/nbaplayers?avgpoints=43.6&cost=%249%2C900&name=Curry%2C+Stephen&position=PG&team=GSW" for 127.0.0.1 at 2015-04-20 10:53:20 -0400
+Processing by NbaplayersController#create as HTML
+  Parameters: {"authenticity_token"=>"+dgPBbnCM5GKH6wHU6nrA8hnV2TPfQ1Y0uQkGN4HgUJuKnPj+/sfeaSMBLWbw1RWg2BbE6289qd1UjoaAQg9Zg==", "avgpoints"=>"43.6", "cost"=>"$9,900", "name"=>"Curry, Stephen", "position"=>"PG", "team"=>"GSW"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Unpermitted parameter: authenticity_token
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "nbaplayers" ("name", "position", "team", "avgpoints", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["name", "Curry, Stephen"], ["position", "PG"], ["team", "GSW"], ["avgpoints", 43.6], ["cost", "$9,900"], ["created_at", "2015-04-20 14:53:20.199351"], ["updated_at", "2015-04-20 14:53:20.199351"]]
+  [1m[36m (183.9ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 194ms
+
+NameError - undefined local variable or method `nbaplayers' for #<NbaplayersController:0x007f9db5c5b188>:
+  app/controllers/nbaplayers_controller.rb:60:in `block (2 levels) in create'
+  actionpack (4.2.0) lib/action_controller/metal/mime_responds.rb:216:in `respond_to'
+  app/controllers/nbaplayers_controller.rb:58:in `create'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:151:in `block in halting_and_conditional'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:151:in `block in halting_and_conditional'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/61e9d62dd89eea69/variables" for 127.0.0.1 at 2015-04-20 10:53:20 -0400
+
+
+Started POST "/nbaplayers?avgpoints=43.6&cost=%249%2C900&name=Curry%2C+Stephen&position=PG&team=GSW" for 127.0.0.1 at 2015-04-20 10:53:41 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#create as HTML
+  Parameters: {"authenticity_token"=>"+dgPBbnCM5GKH6wHU6nrA8hnV2TPfQ1Y0uQkGN4HgUJuKnPj+/sfeaSMBLWbw1RWg2BbE6289qd1UjoaAQg9Zg==", "avgpoints"=>"43.6", "cost"=>"$9,900", "name"=>"Curry, Stephen", "position"=>"PG", "team"=>"GSW"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Unpermitted parameter: authenticity_token
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "nbaplayers" ("name", "position", "team", "avgpoints", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["name", "Curry, Stephen"], ["position", "PG"], ["team", "GSW"], ["avgpoints", 43.6], ["cost", "$9,900"], ["created_at", "2015-04-20 14:53:42.266811"], ["updated_at", "2015-04-20 14:53:42.266811"]]
+  [1m[36m (197.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/nbaplayers
+Completed 302 Found in 233ms (ActiveRecord: 198.5ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:53:42 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (6.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 347ms (Views: 346.1ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/nbaplayers/24" for 127.0.0.1 at 2015-04-20 10:53:48 -0400
+Processing by NbaplayersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"J+Kdx44ohQLHqRJizN0qTzDOveCZMAWVzsNVC/GSWviwEOEhzBGp6uk6utAEt5Uae8mxl/vx/mppdUsJLp3m3A==", "id"=>"24"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1[0m  [["id", 24]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "nbaplayers" WHERE "nbaplayers"."id" = ?[0m  [["id", 24]]
+  [1m[35m (120.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/nbaplayers
+Completed 302 Found in 124ms (ActiveRecord: 120.7ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:53:48 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (3.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/nbaplayers/23" for 127.0.0.1 at 2015-04-20 10:53:50 -0400
+Processing by NbaplayersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"GZ7cFY4KVJR62Kuf9gO3ZMaf9mRdQmGCS/OakqNTPBqObKDzzDN4fFRLAy0+aQgxjZj6Ez+Dmn3sRYSQfFyAPg==", "id"=>"23"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1[0m  [["id", 23]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mDELETE FROM "nbaplayers" WHERE "nbaplayers"."id" = ?[0m  [["id", 23]]
+  [1m[35m (148.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/nbaplayers
+Completed 302 Found in 151ms (ActiveRecord: 148.8ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:53:50 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (2.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 117ms (Views: 115.7ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/nbaplayers/22" for 127.0.0.1 at 2015-04-20 10:53:53 -0400
+Processing by NbaplayersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kLmN0jABqPncblCYPWG3rP7VsG6XBqEhorBWyrDJVlcHS/E0cjiEEfL9+Cr1Cwj5tdK8GfXHWt4FBkjIb8bqcw==", "id"=>"22"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1  [["id", 22]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "nbaplayers" WHERE "nbaplayers"."id" = ?  [["id", 22]]
+  [1m[36m (133.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/nbaplayers
+Completed 302 Found in 137ms (ActiveRecord: 133.9ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:53:53 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (2.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/nbaplayers/21" for 127.0.0.1 at 2015-04-20 10:53:54 -0400
+Processing by NbaplayersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"doWQrJ9gt7o5Wa+PVyAzBlr2i0e83kfqHhxbiuBHLtzhd+xK3VmbUhfKBz2fSoxTEfGHMN4fvBW5qkWIP0iS+A==", "id"=>"21"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1  [["id", 21]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "nbaplayers" WHERE "nbaplayers"."id" = ?  [["id", 21]]
+  [1m[36m (161.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/nbaplayers
+Completed 302 Found in 164ms (ActiveRecord: 162.0ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:53:54 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/nbaplayers/19" for 127.0.0.1 at 2015-04-20 10:53:56 -0400
+Processing by NbaplayersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kDFhxHFcqW3g1gsrff3bTV3xW2mtPvbW/3xnDD6sCUcHwx0iM2WFhc5Fo5m1l2QYFvZXHs//DSlYynkO4aO1Yw==", "id"=>"19"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT  "nbaplayers".* FROM "nbaplayers" WHERE "nbaplayers"."id" = ? LIMIT 1[0m  [["id", 19]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "nbaplayers" WHERE "nbaplayers"."id" = ?[0m  [["id", 19]]
+  [1m[35m (140.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/nbaplayers
+Completed 302 Found in 144ms (ActiveRecord: 141.1ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:53:56 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 112ms (Views: 111.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-20 10:53:56 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (13.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 362ms (Views: 58.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/nbaplayers?avgpoints=49.4&cost=%2411%2C800&name=Davis%2C+Anthony&position=PF&team=NOP" for 127.0.0.1 at 2015-04-20 10:53:58 -0400
+Processing by NbaplayersController#create as HTML
+  Parameters: {"authenticity_token"=>"M4SC12QhPLAhCHlGSFLfz8RiX1aSqh3s7oSThbpKS7ykdv4xJhgQWA+b0fSAOGCaj2VTIfBr5hNJMo2HZUX3mA==", "avgpoints"=>"49.4", "cost"=>"$11,800", "name"=>"Davis, Anthony", "position"=>"PF", "team"=>"NOP"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Unpermitted parameter: authenticity_token
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nbaplayers" ("name", "position", "team", "avgpoints", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["name", "Davis, Anthony"], ["position", "PF"], ["team", "NOP"], ["avgpoints", 49.4], ["cost", "$11,800"], ["created_at", "2015-04-20 14:53:58.329034"], ["updated_at", "2015-04-20 14:53:58.329034"]]
+  [1m[36m (172.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/nbaplayers
+Completed 302 Found in 177ms (ActiveRecord: 172.6ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:53:58 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-20 10:54:01 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (12.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 307ms (Views: 118.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/nbaplayers?avgpoints=43.6&cost=%249%2C900&name=Curry%2C+Stephen&position=PG&team=GSW" for 127.0.0.1 at 2015-04-20 10:54:02 -0400
+Processing by NbaplayersController#create as HTML
+  Parameters: {"authenticity_token"=>"pI726JjI3r7P64x8Edn1Awk5S0Bj8WqcHGBm1fL0hpUzfIoO2vHyVuF4JM7Zs0pWQj5HNwEwkWO71njXLfs6sQ==", "avgpoints"=>"43.6", "cost"=>"$9,900", "name"=>"Curry, Stephen", "position"=>"PG", "team"=>"GSW"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Unpermitted parameter: authenticity_token
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nbaplayers" ("name", "position", "team", "avgpoints", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["name", "Curry, Stephen"], ["position", "PG"], ["team", "GSW"], ["avgpoints", 43.6], ["cost", "$9,900"], ["created_at", "2015-04-20 14:54:02.909872"], ["updated_at", "2015-04-20 14:54:02.909872"]]
+  [1m[36m (171.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/nbaplayers
+Completed 302 Found in 178ms (ActiveRecord: 172.3ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:54:03 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (2.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-20 10:54:04 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (12.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 324ms (Views: 59.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/nbaplayers?avgpoints=33.4&cost=%247%2C500&name=Green%2C+Draymond&position=SF&team=GSW" for 127.0.0.1 at 2015-04-20 10:54:07 -0400
+Processing by NbaplayersController#create as HTML
+  Parameters: {"authenticity_token"=>"XFE/dMReeXs0Fve7WnBAfEvRX3ivekA6rfVd8jU6warLo0OShmdVkxqFXwmSGv8pANZTD827u8UKQ0Pw6jV9jg==", "avgpoints"=>"33.4", "cost"=>"$7,500", "name"=>"Green, Draymond", "position"=>"SF", "team"=>"GSW"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Unpermitted parameter: authenticity_token
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nbaplayers" ("name", "position", "team", "avgpoints", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Green, Draymond"], ["position", "SF"], ["team", "GSW"], ["avgpoints", 33.4], ["cost", "$7,500"], ["created_at", "2015-04-20 14:54:07.024883"], ["updated_at", "2015-04-20 14:54:07.024883"]]
+  [1m[35m (171.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/nbaplayers
+Completed 302 Found in 177ms (ActiveRecord: 172.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:54:07 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (2.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 115ms (Views: 113.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-20 10:54:15 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (12.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 530ms (Views: 58.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/nbaplayers?avgpoints=21.8&cost=%244%2C200&name=Barnes%2C+Harrison&position=SF&team=GSW" for 127.0.0.1 at 2015-04-20 10:54:19 -0400
+Processing by NbaplayersController#create as HTML
+  Parameters: {"authenticity_token"=>"MT/Ih5/LJeDAOOi9KoD2xB0NhAwni4+1MnK85/kzqeemzbRh3fIJCO6rQA/i6kmRVgqIe0VKdEqVxKLlJjwVww==", "avgpoints"=>"21.8", "cost"=>"$4,200", "name"=>"Barnes, Harrison", "position"=>"SF", "team"=>"GSW"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Unpermitted parameter: authenticity_token
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nbaplayers" ("name", "position", "team", "avgpoints", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Barnes, Harrison"], ["position", "SF"], ["team", "GSW"], ["avgpoints", 21.8], ["cost", "$4,200"], ["created_at", "2015-04-20 14:54:19.212665"], ["updated_at", "2015-04-20 14:54:19.212665"]]
+  [1m[35m (166.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/nbaplayers
+Completed 302 Found in 172ms (ActiveRecord: 167.0ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-20 10:54:19 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (3.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-20 10:54:28 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (12.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 517ms (Views: 118.7ms | ActiveRecord: 0.1ms)

@@ -57,7 +57,7 @@ class NbaplayersController < ApplicationController
     @nbaplayers = @players
     respond_to do |format|
       if @nbaplayer.save
-        format.html { redirect_to @nbaplayer, notice: 'Nbaplayer was successfully created.' }
+        format.html { redirect_to nbaplayers_path }
         format.json { render :show, status: :created, location: @nbaplayer }
       else
         format.html { render :new }
@@ -85,7 +85,7 @@ class NbaplayersController < ApplicationController
   def destroy
     @nbaplayer.destroy
     respond_to do |format|
-      format.html { redirect_to nbaplayers_url, notice: 'Nbaplayer was successfully destroyed.' }
+      format.html { redirect_to nbaplayers_url}
       format.json { head :no_content }
     end
   end
