@@ -1,5 +1,7 @@
 require 'mechanize'
 require 'nokogiri'
+require 'csv'
+require 'json'
 require 'open-uri'
 
 class NbaplayersController < ApplicationController
@@ -30,7 +32,7 @@ class NbaplayersController < ApplicationController
         [:team, 'td[3]/text()'],
         [:cost, 'td[6]/text()']
       ].each do |name, xpath|
-        player[name] = l.at_xpath(xpath).to_s.strip
+          player[name] = l.at_xpath(xpath).to_s.strip
       end
     player
     end

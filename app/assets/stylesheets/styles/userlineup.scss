@@ -4,7 +4,7 @@
   h3{
     text-align: center;
   }
-  .players-list-table{
+  .user-lineup-table{
     margin: 0 auto;
     vertical-align: middle;
     background-color: $silver;
@@ -29,5 +29,20 @@
       text-align: center;
       padding: .5em;
     }
+    a{
+      text-align: center;
+    }
+  }
+}
+.graph{
+  svg{
+    background-color: gray;
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding-top: 1em;
+  }
+  rect{
+    fill: $concrete;
   }
 }

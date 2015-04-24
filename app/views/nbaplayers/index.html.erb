@@ -1,7 +1,7 @@
 <section class="userlineup">
   <p id="notice"><%= notice %></p>
   <h3>Listing NBA Players</h3>
-  <table class="players-list-table">
+  <table class="user-lineup-table">
     <thead>
       <tr>
         <th>Name</th>
@@ -20,14 +20,16 @@
           <td><%= nbaplayer[:team]%></td>
           <td><%= nbaplayer[:avgpoints] %></td>
           <td><%= nbaplayer[:cost] %></td>
-          <td><%= link_to 'Show', nbaplayer %></td>
           <% if user_signed_in? %>
-            <td><%= link_to 'Edit', edit_nbaplayer_path(nbaplayer) %></td>
-            <td><%= link_to 'Destroy', nbaplayer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            <td><%= link_to 'Remove player', nbaplayer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
           <% end %>
         </tr>
-      <% end %>
+        <% end %>
+        <tr>
+          <td><%= link_to 'Add more players', list_path %></td>
+        </tr>
     </tbody>
   </table>
   <br>
 </section>
+<div class="graph"></div>

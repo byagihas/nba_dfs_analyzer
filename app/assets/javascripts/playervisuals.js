@@ -1,22 +1,41 @@
-var spaceCircles = [30, 70, 110];
+var url = '/nbaplayers.json';
+d3.json( url, function( error, data ) {
+    console.log(data);
 
-var svgContainer = d3.select("body").append("svg")
-  .attr("width", 200)
-  .attr("height", 200);
+    var canvas = d3.select(".graph").append("svg")
+      .attr('align', 'middle')
+      .attr('class', 'chart')
+      .attr("width", 500)
+      .attr("height", 500);
 
-var circles = svgContainer.selectAll("circle")
-  .data(spaceCircles)
-  .enter()
-  .append("circle");
+    canvas.selectAll("rect")
+      .data(data)
+      .enter()
+      .append("rect")
+      .attr("width", function (d) { return (d.cost/d.avgpoints).toFixed(0); })
+      .attr("height", 30)
+      .attr("y", function (d,i) { return i*50; })
 
-var circleAttributes = circles
-  .attr("cx", function (d) { return d; })
-  .attr("cy", function (d) { return d; })
-  .attr("r", 20 )
-  .style("fill", function(d) {
-  var returnColor;
-    if (d === 30) { returnColor = "green";
-    } else if (d === 70) { returnColor = "purple";
-    } else if (d === 110) { returnColor = "red"; }
-      return returnColor;
+    canvas.selectAll("text")
+      .data(data)
+      .enter()  
+      .append("text")
+      .attr("fill", "white")
+      .attr("x", function(d) { return (d.cost/d.avgpoints).toFixed(0); })
+      .attr("y", function (d,i) { return i*50 +27; })
+      .text(function (d) { return (d.cost/d.avgpoints).toFixed(0)});
+
+    canvas.selectAll("names")
+      .data(data)
+      .enter()  
+      .append("text")
+      .attr("fill", "white")
+      .attr("x", 5)
+      .attr("y", function (d,i) { return i*50 + 27})
+      .text(function (d) { return d.name; }); 
+
+    canvas.append("path")
+        .attr("class", "line")
+        .attr("width", 500);
 });
+
