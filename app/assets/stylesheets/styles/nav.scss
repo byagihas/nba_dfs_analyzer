@@ -1,3 +1,5 @@
+@import 'base/variables.scss';
+
 .navbar{
   background-color: black;
   padding: 2em;
@@ -9,12 +11,15 @@
     a{
       color: white;
       text-decoration: none;
-      font-size: 1.6em;
+      font-size: 1.8em;
     }
     a:hover{
      color: gray;
      text-decoration: none;
       }
+    a:active{
+      color: $greensea;
+    }
   }
   .login{
     float: right;
