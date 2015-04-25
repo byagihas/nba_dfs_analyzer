@@ -40665,3 +40665,154 @@ Processing by NbaplayersController#index as JSON
   [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
   Rendered nbaplayers/index.json.jbuilder (1.1ms)
 Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-25 16:57:30 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 338ms (Views: 329.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-25 16:57:31 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 86ms (Views: 85.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-25 16:57:31 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (11.2ms)
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-25 16:57:33 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 88ms (Views: 86.4ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-04-25 16:57:42 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xLwirPAVE0nw73kam7mp9DPhQygwv8QeaWaq5OUNR2kUCvrpYjirmDuYSJj+ojeN1cKM5Qrcfoo+PDm8CPrxVg==", "email"=>"brandon", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "brandon"]]
+  Rendered sessions/new.html.erb within layouts/application (3.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 76ms (Views: 71.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-25 16:57:42 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (1.3ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-04-25 16:57:47 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dhOoWmItzkdstm5Z4FFh+kYeGefX76G6rYvlUGaYkd+mpXAf8AB2lqfBX9uFSv+DoD3WKu2MGy760XYIi28n4A==", "email"=>"fritzchr@msu.edu", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "fritzchr@msu.edu"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 61ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-25 16:57:47 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-25 16:57:47 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.1ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (0.7ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/list" for 127.0.0.1 at 2015-04-25 16:57:52 -0400
+Processing by NbaplayersController#list as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/list.html.erb within layouts/application (20.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 364ms (Views: 63.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/nbaplayers?avgpoints=54.5&cost=11800&name=Davis%2C+Anthony&position=PF&team=NOP" for 127.0.0.1 at 2015-04-25 16:57:56 -0400
+Processing by NbaplayersController#create as HTML
+  Parameters: {"authenticity_token"=>"dxwMGsNSIKon+x4P0KwWoTkJVnlJCTZErz7KnGGksUOnqtRfUX+Ye+yML421t4jY3yqZtHNqjND4ZFnEjFMHfA==", "avgpoints"=>"54.5", "cost"=>"11800", "name"=>"Davis, Anthony", "position"=>"PF", "team"=>"NOP"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Unpermitted parameter: authenticity_token
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "nbaplayers" ("name", "position", "team", "avgpoints", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Davis, Anthony"], ["position", "PF"], ["team", "NOP"], ["avgpoints", 54.5], ["cost", 11800], ["created_at", "2015-04-25 20:57:56.290693"], ["updated_at", "2015-04-25 20:57:56.290693"]]
+  [1m[35m (12.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/nbaplayers
+Completed 302 Found in 23ms (ActiveRecord: 13.4ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-25 16:57:56 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.1ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (2.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-25 16:57:56 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (1.1ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-25 16:58:07 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (1.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-25 16:58:07 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.3ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (2.7ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-25 16:58:50 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (1.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered nbaplayers/index.html.erb within layouts/application (22.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 249ms (Views: 224.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-25 16:58:50 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (2.6ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.2ms)
