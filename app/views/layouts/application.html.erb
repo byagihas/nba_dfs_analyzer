@@ -13,7 +13,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <nav class="navbar navbar-default navbar-static-top">
+  <nav class="navbar navbar-stacked navbar-static-top">
     <div class="menu row-fluid">
       <ul id="nav">
         <li><%= link_to 'Home', root_path %></li>
@@ -26,7 +26,7 @@
     <div class="login row-fluid">
        <% if user_signed_in? %>
          <li>Signed in in as <%= current_user.email %></li>
-        <li><%= link_to "Sign Out", sign_out_path, method: :delete %></li>
+         <li><%= link_to "Sign Out", sign_out_path, method: :delete %></li>
        <% else %>
          <li><%= link_to "Sign In", sign_in_path %></li>
        <% end %>

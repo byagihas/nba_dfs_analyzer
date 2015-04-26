@@ -8,6 +8,11 @@
   .menu{
     text-align: left;
     float: left;
+    li{
+      display: inline;
+      text-decoration: none;
+      padding: 1em;
+    }
     a{
       color: white;
       text-decoration: none;
@@ -17,25 +22,30 @@
      color: gray;
      text-decoration: none;
       }
-    a:active{
-      color: $greensea;
-    }
   }
   .login{
     float: right;
     background-color: gray;
     border-radius: .2em;
-    padding: .2em;
+    padding: .3em;
+    color: white;
     li{
       list-style-type: none;
+      display: inline;
+      padding: .5em;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+      background-color: black;
+      padding: .2em;
+      border-radius: 3px;
+    }
+    a:hover{
+      background-color: white;
+      color: black;
     }
   }
   .login:hover{
-
   }
-}
-#nav li{
-  padding: 1.5em;
-  display: inline;
-  list-style-type: none;
 }
