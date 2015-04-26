@@ -1,4 +1,4 @@
-== README
+#README
 
 A Rails app that scrapes daily fantasy sports stats for analytic purposes.
 
