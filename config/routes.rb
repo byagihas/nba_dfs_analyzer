@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :mlbplayers
+
   resources :nbaplayers
   resources :sessions, only: [:new, :create, :destroy, :list]
 

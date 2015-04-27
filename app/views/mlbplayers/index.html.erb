@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Mlbplayers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Team</th>
+      <th>Position</th>
+      <th>Battingpos</th>
+      <th>Salary</th>
+      <th>Avgpoints</th>
+      <th>Value</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @mlbplayers.each do |mlbplayer| %>
+      <tr>
+        <td><%= mlbplayer.name %></td>
+        <td><%= mlbplayer.team %></td>
+        <td><%= mlbplayer.position %></td>
+        <td><%= mlbplayer.battingpos %></td>
+        <td><%= mlbplayer.salary %></td>
+        <td><%= mlbplayer.avgpoints %></td>
+        <td><%= mlbplayer.value %></td>
+        <td><%= link_to 'Show', mlbplayer %></td>
+        <td><%= link_to 'Edit', edit_mlbplayer_path(mlbplayer) %></td>
+        <td><%= link_to 'Destroy', mlbplayer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Mlbplayer', new_mlbplayer_path %>

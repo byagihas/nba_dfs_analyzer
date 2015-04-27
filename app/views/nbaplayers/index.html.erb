@@ -21,7 +21,7 @@
           <td><%= nbaplayer[:avgpoints] %></td>
           <td><%= nbaplayer[:cost] %></td>
           <% if user_signed_in? %>
-            <td><%= link_to 'Remove player', nbaplayer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            <td><%= link_to 'Remove', nbaplayer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
           <% end %>
         </tr>
         <% end %>

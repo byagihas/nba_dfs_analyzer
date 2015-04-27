@@ -11,7 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150424235954) do
+ActiveRecord::Schema.define(version: 20150426223129) do
+
+  create_table "mlbplayers", force: :cascade do |t|
+    t.string   "name"
+    t.string   "team"
+    t.string   "position"
+    t.string   "battingpos"
+    t.string   "salary"
+    t.float    "avgpoints"
+    t.float    "value"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "nbaplayers", force: :cascade do |t|
     t.text     "name"
