@@ -2,27 +2,26 @@ var ready;
 ready = function(){
     var url = '/nbaplayers.json';
     d3.json( url, function( error, data ) {
-        console.log(data);
-        w = 300
-        h = 1
+        var width = 350;
+        var height = 400;
 
-        var x = d3.scale.linear().range([0, w]),
-            y = d3.scale.ordinal().rangeRoundBands([0, 100], 100);
-        var xAxis = d3.svg.axis().scale(x).orient("bottom").tickSize(3),
-            yAxis = d3.svg.axis().scale(y).orient("left").tickSize(5);
+        var x = d3.scale.linear().range([0, 300]);
+        x.domain(d3.extent(data, function(d) { return (d.cost/d.avgpoints); }));
+
+        var xAxis = d3.svg.axis().scale(x).orient("bottom").ticks(3).tickSize(2).tickFormat(d3.format("d"));
 
         var canvas = d3.select(".graph").append("svg")
             .attr('align', 'middle')
             .attr('class', 'chart')
-            .attr("width", 500)
-            .attr("height", 400)
+            .attr("width", width)
+            .attr("height", height)
 
         canvas.selectAll("rect")
             .data(data)
             .enter()
             .append("rect")
-            .attr("width", function (d) { return (d.cost/d.avgpoints).toFixed(0); })
-            .attr("height", 30)
+            .attr("width", function (d) { return ((d.cost/d.avgpoints).toFixed(0)); })
+            .attr("height", 25)
             .attr("y", function (d,i) { return i*50; })
 
         canvas.selectAll("text")
@@ -32,7 +31,8 @@ ready = function(){
             .attr("fill", "white")
             .attr("background", "black")
             .attr("x", function(d) { return (d.cost/d.avgpoints).toFixed(0); })
-            .attr("y", function (d,i) { return i*50 +27; })
+            .attr("y", function (d,i) { return i*50 +20; })
+            .attr("transform", "translate(5,0)")
             .text(function (d) { return (d.cost/d.avgpoints).toFixed(0)});
 
         canvas.selectAll("names")
@@ -41,11 +41,11 @@ ready = function(){
             .append("text")
             .attr("fill", "white")
             .attr("x", 5)
-            .attr("y", function (d,i) { return i*50 + 27})
+            .attr("y", function (d,i) { return i*50 + 20})
             .text(function (d) { return d.name; });
 
-       var xAxisGroup = canvas.append("g")
-            .call(yAxis)
+       var xAxisG = d3.select("svg").append("g")
+            .attr("transform","translate(0,300)")
             .call(xAxis);
     });
 };
