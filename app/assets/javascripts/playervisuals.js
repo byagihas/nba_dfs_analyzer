@@ -3,17 +3,19 @@ ready = function(){
     var url = '/nbaplayers.json';
     d3.json( url, function( error, data ) {
         console.log(data);
+        w = 300
+        h = 1
 
         var x = d3.scale.linear().range([0, w]),
-            y = d3.scale.ordinal().rangeRoundBands([0, h], .1);
-        var xAxis = d3.svg.axis().scale(x).orient("top").tickSize(-h),
-            yAxis = d3.svg.axis().scale(y).orient("left").tickSize(0);
+            y = d3.scale.ordinal().rangeRoundBands([0, 100], 100);
+        var xAxis = d3.svg.axis().scale(x).orient("bottom").tickSize(3),
+            yAxis = d3.svg.axis().scale(y).orient("left").tickSize(5);
 
         var canvas = d3.select(".graph").append("svg")
             .attr('align', 'middle')
             .attr('class', 'chart')
             .attr("width", 500)
-            .attr("height", 400);
+            .attr("height", 400)
 
         canvas.selectAll("rect")
             .data(data)
@@ -40,17 +42,12 @@ ready = function(){
             .attr("fill", "white")
             .attr("x", 5)
             .attr("y", function (d,i) { return i*50 + 27})
-            .text(function (d) { return d.name; }); 
+            .text(function (d) { return d.name; });
 
-        canvas.selectAll("circle")
-            .data(data)
-            .enter()
-            .append("circle")
-            .attr("fill","black")
-            .attr("x", function(d) { return (d.cost/d.avgpoints).toFixed(0); })
-            .attr("y", function (d,i) { return i*50 +27; })
+       var xAxisGroup = canvas.append("g")
+            .call(yAxis)
+            .call(xAxis);
     });
 };
-
 $(document).ready(ready);
 $(document).on('page:load',ready);

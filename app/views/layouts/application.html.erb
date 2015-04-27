@@ -25,10 +25,14 @@
     </div>
     <div class="login row-fluid">
        <% if user_signed_in? %>
+       <ul class="signed-in">
          <li>Signed in in as <%= current_user.email %></li>
          <li><%= link_to "Sign Out", sign_out_path, method: :delete %></li>
+       </ul>
        <% else %>
+       <ul class="signed-out">
          <li><%= link_to "Sign In", sign_in_path %></li>
+       </ul>
        <% end %>
     </div>
   </nav>

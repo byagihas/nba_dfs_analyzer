@@ -25,27 +25,49 @@
   }
   .login{
     float: right;
-    background-color: gray;
     border-radius: .2em;
     padding: .3em;
     color: white;
-    li{
-      list-style-type: none;
-      display: inline;
-      padding: .5em;
+    .signed-in{
+        li{
+          color: black;
+          background-color: white;
+          list-style-type: none;
+          display: inline;
+          padding: .5em;
+          border-radius: 3px;
+        }
+        li:hover{
+          background-color: gray;
+        }
+        a{
+          text-decoration: none;
+          color: black;
+        }
+        a:hover{
+          background-color: gray;
+          color: black;
+        }
     }
-    a{
-      text-decoration: none;
-      color: white;
-      background-color: black;
-      padding: .2em;
-      border-radius: 3px;
+    .signed-out{
+        li{
+          list-style-type: none;
+          display: inline;
+          padding: .5em;
+          background-color: white;
+          border-radius: 3px;
+          color: white;
+        }
+        li:hover{
+          background-color: gray;
+        }
+        a{
+          text-decoration: none;
+          color: black;
+        }
+        a:hover{
+          color: white
+        }
     }
-    a:hover{
-      background-color: white;
-      color: black;
-    }
-  }
-  .login:hover{
   }
 }
