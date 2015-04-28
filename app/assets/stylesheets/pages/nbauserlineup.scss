@@ -5,6 +5,7 @@
     text-align: center;
   }
   .user-lineup-table{
+    border-radius: 1em;
     margin: 0 auto;
     vertical-align: middle;
     background-color: $silver;
@@ -31,24 +32,6 @@
     }
     a{
       text-align: center;
-    }
-  }
-  p{
-    text-align: center;
-  }
-  .graph{
-    svg{
-      background-color: gray;
-      display: block;
-      margin: 0 auto;
-      vertical-align: middle;
-      padding-top: 1em;
-    }
-    rect{
-      fill: $concrete;
-    }
-    g{
-      fill: white;
     }
   }
 }
