@@ -8,7 +8,7 @@ ready = function(){
         var x = d3.scale.linear().range([0, 300]);
         x.domain(d3.extent(data, function(d) { return (d.cost/d.avgpoints); }));
 
-        var xAxis = d3.svg.axis().scale(x).orient("bottom").ticks(3).tickSize(2).tickFormat(d3.format("d"));
+        var xAxis = d3.svg.axis().scale(x).orient("bottom").ticks(5).tickSize(2).tickFormat(d3.format("d"));
 
         var canvas = d3.select(".graph").append("svg")
             .attr('align', 'middle')
@@ -32,7 +32,6 @@ ready = function(){
             .attr("background", "black")
             .attr("x", function(d) { return (d.cost/d.avgpoints).toFixed(0); })
             .attr("y", function (d,i) { return i*50 +20; })
-            .attr("transform", "translate(5,0)")
             .text(function (d) { return (d.cost/d.avgpoints).toFixed(0)});
 
         canvas.selectAll("names")

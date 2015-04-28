@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+@import "base/variables.scss";
+@import "pages/nav.scss";
+@import "pages/sessions.scss";
+@import "pages/home.scss";
+@import "pages/plist.scss";
+@import "pages/userlineup.scss";
