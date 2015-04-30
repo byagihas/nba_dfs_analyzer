@@ -1,21 +1,25 @@
 .signed-in{
   li{
-    color: black;
-    background-color: white;
+    background-color: gray;
+    color: white;
     list-style-type: none;
     display: inline;
     padding: .5em;
-    border-radius: 3px;
+    border-radius: .3em;
   }
-  li:hover{
-    background-color: gray;
-  }
-  a{
+   a{
+    background-color: black;
+    font-size: 1.5em;
+    padding: .5em;
     text-decoration: none;
-    color: black;
+    color: white;
+    width: 1em;
+    transition: background-color 1s;
+    border-radius: .3em;
   }
   a:hover{
+    color: white;
     background-color: gray;
-    color: black;
+    border-radius: .3em;
   }
 }
