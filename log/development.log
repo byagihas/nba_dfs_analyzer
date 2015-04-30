@@ -50153,3 +50153,2086 @@ Processing by NbaplayersController#index as JSON
   [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
   Rendered nbaplayers/index.json.jbuilder (1.6ms)
 Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-29 19:28:25 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 10798ms (Views: 10779.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-29 19:28:36 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 77ms (Views: 76.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/base/variables.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/login/sessions.self-0ae2eb338bb8f7c133c31d605c366e174bba98d80f4ffc7d2ff3c462570fcaaf.css?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/pages/nbaplayerhome.self-784055df54b35fe9af10f949d6dbce56ef13646c60135689749a752c2abc7166.css?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/navbar/signedin.self-37d9aa82891e3107d42118761de7afadaf6b89e002adec387b43cf4956827811.css?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/navbar/signedout.self-96884715a423575d1c521f0cb0e5d2262069c7c35c5151bba3f6b9d4a71cd396.css?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/navbar/nav.self-dd249d87dba76f5e9e27a67fb794036ba91160f65d1049e2c572bd3a7e31df0b.css?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/pages/nbaplayerlist.self-199e162f4f57e0c5c7ceb70be0e208480de3236f6dd5055705ae8bd1cee90efe.css?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/pages/nbauserlineup.self-de599bdd6ebd7170f2c0ce269a9be1b604516a86c3296634bab5cb111654caf7.css?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/pages/nbauserlineupgraph.self-152cd15532cb0b4004ff9fe0eef03db8ea9a94dcc75c824b521673177e8d0707.css?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/application.self-84de2f97642d6d5713a85994effe6cdfa632870928868ff1832d8943a1c23a09.css?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/d3.self-bba644a88475fad716e03a8f92ecfc7e1c6ebcea622c39975002fd8356d00ba0.js?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/mlbplayers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/nbaplayers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/playervisuals.self-11972d7c8c55a1eb6461c11e9e982d2086c3fcedb5cc666a5bde45aa6563b7e5.js?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b3bbbf9130c1050771738b2.js?body=1" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:28:37 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.3ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (34.8ms)
+Completed 200 OK in 72ms (Views: 44.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-29 19:29:36 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 2063ms (Views: 2062.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/navbar/signedout.self-ee51c4022787e0755fe902ebe73ccb470b63cd92daae0e5ad94ae4c23de7ea86.css?body=1" for 127.0.0.1 at 2015-04-29 19:29:38 -0400
+
+
+Started GET "/assets/application.self-da3a0f0cc564a2abf67f93d7251e3e8a81fb16209132cdae1bf9cb054feea67f.css?body=1" for 127.0.0.1 at 2015-04-29 19:29:38 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:29:38 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (3.5ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-29 19:29:38 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 84ms (Views: 82.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:29:38 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (3.0ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-29 19:29:48 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 80ms (Views: 79.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:29:49 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (3.4ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-29 19:30:09 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 85ms (Views: 84.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:30:09 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (2.6ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-29 19:30:10 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered nbaplayers/index.html.erb within layouts/application (10.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 114ms (Views: 112.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:30:11 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (2.2ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-29 19:31:16 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered nbaplayers/index.html.erb within layouts/application (4.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 84ms (Views: 82.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:31:16 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.3ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (3.4ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nbaplayers" for 127.0.0.1 at 2015-04-29 19:32:05 -0400
+Processing by NbaplayersController#index as HTML
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered nbaplayers/index.html.erb within layouts/application (3.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 82ms (Views: 81.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:32:05 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.3ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (3.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-29 19:33:00 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 2026ms (Views: 2025.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-29 19:33:02 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 96ms (Views: 95.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-29 19:33:02 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 109ms (Views: 108.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/navbar/signedout.self-9a66f57cd343cdcedfa6efc7c825f4a37517564b02af5f6ddb46b5dda98321e7.css?body=1" for 127.0.0.1 at 2015-04-29 19:33:02 -0400
+
+
+Started GET "/assets/application.self-ee4a4830f64770e249eea48bbc1e12053151985c0941bd7bbc2eacdd6e15083a.css?body=1" for 127.0.0.1 at 2015-04-29 19:33:02 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:33:02 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (4.1ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-29 19:33:17 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 34ms
+
+Sass::SyntaxError - Invalid CSS after "...ackground-color": expected ";", was ": gray;":
+  sass (3.4.13) lib/sass/scss/parser.rb:1165:in `expected'
+  sass (3.4.13) lib/sass/scss/parser.rb:1101:in `expected'
+  sass (3.4.13) lib/sass/scss/parser.rb:1096:in `tok!'
+  sass (3.4.13) lib/sass/scss/parser.rb:761:in `block in try_declaration'
+  sass (3.4.13) lib/sass/scss/parser.rb:1141:in `rethrow'
+  sass (3.4.13) lib/sass/scss/parser.rb:766:in `try_declaration'
+  sass (3.4.13) lib/sass/scss/parser.rb:696:in `declaration_or_ruleset'
+  sass (3.4.13) lib/sass/scss/parser.rb:661:in `block_child'
+  sass (3.4.13) lib/sass/scss/parser.rb:650:in `block_contents'
+  sass (3.4.13) lib/sass/scss/parser.rb:642:in `block'
+  sass (3.4.13) lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+  sass (3.4.13) lib/sass/scss/parser.rb:661:in `block_child'
+  sass (3.4.13) lib/sass/scss/parser.rb:653:in `block_contents'
+  sass (3.4.13) lib/sass/scss/parser.rb:642:in `block'
+  sass (3.4.13) lib/sass/scss/parser.rb:635:in `ruleset'
+  sass (3.4.13) lib/sass/scss/parser.rb:660:in `block_child'
+  sass (3.4.13) lib/sass/scss/parser.rb:650:in `block_contents'
+  sass (3.4.13) lib/sass/scss/parser.rb:117:in `stylesheet'
+  sass (3.4.13) lib/sass/scss/parser.rb:42:in `parse'
+  sass (3.4.13) lib/sass/engine.rb:393:in `_to_tree'
+  sass (3.4.13) lib/sass/engine.rb:299:in `to_tree'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+  sass (3.4.13) lib/sass/stack.rb:88:in `block in with_import'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:88:in `with_import'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.13) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `block in visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:157:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:8:in `visit'
+  sass (3.4.13) lib/sass/tree/root_node.rb:36:in `css_tree'
+  sass (3.4.13) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.4.13) lib/sass/engine.rb:268:in `render'
+  sass-rails (5.0.3) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (3.0.1) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:73:in `call_processor'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:55:in `block in call_processors'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:54:in `call_processors'
+  sprockets (3.0.1) lib/sprockets/loader.rb:103:in `load_asset_by_uri'
+  sprockets (3.0.1) lib/sprockets/loader.rb:40:in `block in load'
+  sprockets (3.0.1) lib/sprockets/loader.rb:170:in `fetch_asset_from_dependency_cache'
+  sprockets (3.0.1) lib/sprockets/loader.rb:33:in `load'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.0.1) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.0.1) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.0.1) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:73:in `call_processor'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:55:in `block in call_processors'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:54:in `call_processors'
+  sprockets (3.0.1) lib/sprockets/loader.rb:103:in `load_asset_by_uri'
+  sprockets (3.0.1) lib/sprockets/loader.rb:40:in `block in load'
+  sprockets (3.0.1) lib/sprockets/loader.rb:170:in `fetch_asset_from_dependency_cache'
+  sprockets (3.0.1) lib/sprockets/loader.rb:33:in `load'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.0.1) lib/sprockets/base.rb:63:in `find_asset'
+  sprockets (3.0.1) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.0.1) lib/sprockets/base.rb:89:in `[]'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1068786304718536737_70321740810320'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:151:in `block in halting_and_conditional'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:151:in `block in halting_and_conditional'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/6f79d9582711472f/variables" for 127.0.0.1 at 2015-04-29 19:33:18 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-29 19:33:28 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 2126ms (Views: 2125.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/navbar/signedout.self-470cb2ba497a00bda58182ddcbea847386669ed7d6715fbcd7693e636d2e9861.css?body=1" for 127.0.0.1 at 2015-04-29 19:33:30 -0400
+
+
+Started GET "/assets/application.self-56f1408237db7af53fe0c9eba051e1ced4facefc5cfde1029fca0ad2a4846acf.css?body=1" for 127.0.0.1 at 2015-04-29 19:33:30 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:33:30 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.3ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (3.3ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-29 19:33:56 -0400
+Processing by NbaplayersController#home as HTML
+  Rendered nbaplayers/home.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 2063ms (Views: 2062.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/navbar/signedout.self-3f6b07557b9eb2802eefe11afc4b0a99701821dffeabbc1bcc52817fb725ccbf.css?body=1" for 127.0.0.1 at 2015-04-29 19:33:58 -0400
+
+
+Started GET "/assets/application.self-670e7c3c761f224e1b5e586ab80df68cd391a3dcc75588f35c8af548fcd66fbb.css?body=1" for 127.0.0.1 at 2015-04-29 19:33:58 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:33:58 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (3.3ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:34:01 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 93ms (Views: 92.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:34:01 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.3ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (2.9ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:34:02 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 79ms (Views: 78.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:34:02 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (1.9ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:34:12 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 2073ms (Views: 2072.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/navbar/signedout.self-9e0f757b425cb34c595f7e0b565ca283fc0c5079c657254e413cbab12034ac8b.css?body=1" for 127.0.0.1 at 2015-04-29 19:34:14 -0400
+
+
+Started GET "/assets/application.self-f791eaf6b83ea0edd3fdf95efd0c00d15639e0b836d4959649649f00772b1748.css?body=1" for 127.0.0.1 at 2015-04-29 19:34:14 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:34:14 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.3ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (3.5ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:38:35 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 311ms
+
+Sass::SyntaxError - Invalid CSS after "    width:": expected pseudoclass or pseudoelement, was " 2s":
+  sass (3.4.13) lib/sass/scss/parser.rb:1165:in `expected'
+  sass (3.4.13) lib/sass/scss/parser.rb:1101:in `expected'
+  sass (3.4.13) lib/sass/scss/parser.rb:1096:in `tok!'
+  sass (3.4.13) lib/sass/scss/static_parser.rb:277:in `pseudo'
+  sass (3.4.13) lib/sass/scss/static_parser.rb:160:in `simple_selector_sequence'
+  sass (3.4.13) lib/sass/scss/static_parser.rb:119:in `selector'
+  sass (3.4.13) lib/sass/scss/static_parser.rb:86:in `selector_comma_sequence'
+  sass (3.4.13) lib/sass/scss/parser.rb:1079:in `expr!'
+  sass (3.4.13) lib/sass/scss/static_parser.rb:20:in `parse_selector'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:424:in `visit_rule'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.13) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.13) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+  sass (3.4.13) lib/sass/stack.rb:88:in `block in with_import'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:88:in `with_import'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.13) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `block in visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:157:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:8:in `visit'
+  sass (3.4.13) lib/sass/tree/root_node.rb:36:in `css_tree'
+  sass (3.4.13) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.4.13) lib/sass/engine.rb:268:in `render'
+  sass-rails (5.0.3) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (3.0.1) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:73:in `call_processor'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:55:in `block in call_processors'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:54:in `call_processors'
+  sprockets (3.0.1) lib/sprockets/loader.rb:103:in `load_asset_by_uri'
+  sprockets (3.0.1) lib/sprockets/loader.rb:40:in `block in load'
+  sprockets (3.0.1) lib/sprockets/loader.rb:170:in `fetch_asset_from_dependency_cache'
+  sprockets (3.0.1) lib/sprockets/loader.rb:33:in `load'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.0.1) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.0.1) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.0.1) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:73:in `call_processor'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:55:in `block in call_processors'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:54:in `call_processors'
+  sprockets (3.0.1) lib/sprockets/loader.rb:103:in `load_asset_by_uri'
+  sprockets (3.0.1) lib/sprockets/loader.rb:40:in `block in load'
+  sprockets (3.0.1) lib/sprockets/loader.rb:170:in `fetch_asset_from_dependency_cache'
+  sprockets (3.0.1) lib/sprockets/loader.rb:33:in `load'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.0.1) lib/sprockets/base.rb:63:in `find_asset'
+  sprockets (3.0.1) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.0.1) lib/sprockets/base.rb:89:in `[]'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3003241922745870299_70338248929480'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/1a6e7e5daa7c6935/variables" for 127.0.0.1 at 2015-04-29 19:38:35 -0400
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:38:46 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 22ms
+
+Sass::SyntaxError - Invalid CSS after "    width ": expected selector, was "2s":
+  sass (3.4.13) lib/sass/scss/parser.rb:1165:in `expected'
+  sass (3.4.13) lib/sass/scss/parser.rb:1101:in `expected'
+  sass (3.4.13) lib/sass/scss/static_parser.rb:21:in `parse_selector'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:424:in `visit_rule'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.13) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.13) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+  sass (3.4.13) lib/sass/stack.rb:88:in `block in with_import'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:88:in `with_import'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.13) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `block in visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:157:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:8:in `visit'
+  sass (3.4.13) lib/sass/tree/root_node.rb:36:in `css_tree'
+  sass (3.4.13) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.4.13) lib/sass/engine.rb:268:in `render'
+  sass-rails (5.0.3) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (3.0.1) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:73:in `call_processor'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:55:in `block in call_processors'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:54:in `call_processors'
+  sprockets (3.0.1) lib/sprockets/loader.rb:103:in `load_asset_by_uri'
+  sprockets (3.0.1) lib/sprockets/loader.rb:40:in `block in load'
+  sprockets (3.0.1) lib/sprockets/loader.rb:170:in `fetch_asset_from_dependency_cache'
+  sprockets (3.0.1) lib/sprockets/loader.rb:33:in `load'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.0.1) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.0.1) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.0.1) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:73:in `call_processor'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:55:in `block in call_processors'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:54:in `call_processors'
+  sprockets (3.0.1) lib/sprockets/loader.rb:103:in `load_asset_by_uri'
+  sprockets (3.0.1) lib/sprockets/loader.rb:40:in `block in load'
+  sprockets (3.0.1) lib/sprockets/loader.rb:170:in `fetch_asset_from_dependency_cache'
+  sprockets (3.0.1) lib/sprockets/loader.rb:33:in `load'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.0.1) lib/sprockets/base.rb:63:in `find_asset'
+  sprockets (3.0.1) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.0.1) lib/sprockets/base.rb:89:in `[]'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3003241922745870299_70338248929480'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/92792f36e8d11c81/variables" for 127.0.0.1 at 2015-04-29 19:38:46 -0400
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:38:54 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 20ms
+
+Sass::SyntaxError - Invalid CSS after "    width 2s": expected "{", was ";":
+  sass (3.4.13) lib/sass/scss/parser.rb:1165:in `expected'
+  sass (3.4.13) lib/sass/scss/parser.rb:1101:in `expected'
+  sass (3.4.13) lib/sass/scss/parser.rb:1096:in `tok!'
+  sass (3.4.13) lib/sass/scss/parser.rb:641:in `block'
+  sass (3.4.13) lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+  sass (3.4.13) lib/sass/scss/parser.rb:661:in `block_child'
+  sass (3.4.13) lib/sass/scss/parser.rb:653:in `block_contents'
+  sass (3.4.13) lib/sass/scss/parser.rb:642:in `block'
+  sass (3.4.13) lib/sass/scss/parser.rb:635:in `ruleset'
+  sass (3.4.13) lib/sass/scss/parser.rb:660:in `block_child'
+  sass (3.4.13) lib/sass/scss/parser.rb:650:in `block_contents'
+  sass (3.4.13) lib/sass/scss/parser.rb:117:in `stylesheet'
+  sass (3.4.13) lib/sass/scss/parser.rb:42:in `parse'
+  sass (3.4.13) lib/sass/engine.rb:393:in `_to_tree'
+  sass (3.4.13) lib/sass/engine.rb:299:in `to_tree'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+  sass (3.4.13) lib/sass/stack.rb:88:in `block in with_import'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:88:in `with_import'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.13) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `block in visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:157:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:8:in `visit'
+  sass (3.4.13) lib/sass/tree/root_node.rb:36:in `css_tree'
+  sass (3.4.13) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.4.13) lib/sass/engine.rb:268:in `render'
+  sass-rails (5.0.3) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (3.0.1) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:73:in `call_processor'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:55:in `block in call_processors'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:54:in `call_processors'
+  sprockets (3.0.1) lib/sprockets/loader.rb:103:in `load_asset_by_uri'
+  sprockets (3.0.1) lib/sprockets/loader.rb:40:in `block in load'
+  sprockets (3.0.1) lib/sprockets/loader.rb:170:in `fetch_asset_from_dependency_cache'
+  sprockets (3.0.1) lib/sprockets/loader.rb:33:in `load'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.0.1) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.0.1) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.0.1) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:73:in `call_processor'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:55:in `block in call_processors'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:54:in `call_processors'
+  sprockets (3.0.1) lib/sprockets/loader.rb:103:in `load_asset_by_uri'
+  sprockets (3.0.1) lib/sprockets/loader.rb:40:in `block in load'
+  sprockets (3.0.1) lib/sprockets/loader.rb:170:in `fetch_asset_from_dependency_cache'
+  sprockets (3.0.1) lib/sprockets/loader.rb:33:in `load'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.0.1) lib/sprockets/base.rb:63:in `find_asset'
+  sprockets (3.0.1) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.0.1) lib/sprockets/base.rb:89:in `[]'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3003241922745870299_70338248929480'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/193bb93d996dfd4d/variables" for 127.0.0.1 at 2015-04-29 19:38:54 -0400
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:39:51 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 2568ms (Views: 2567.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/navbar/signedout.self-72a272871f7841e734224a7bb9176baa78dc6652a16950f5ebf1ded9558daf97.css?body=1" for 127.0.0.1 at 2015-04-29 19:39:54 -0400
+
+
+Started GET "/assets/application.self-f37d31a7622b66012e8809d79f36688e182ab6877d7055b267c3688c0db4b94f.css?body=1" for 127.0.0.1 at 2015-04-29 19:39:54 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:39:54 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (9.6ms)
+Completed 200 OK in 19ms (Views: 14.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:40:01 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 79ms (Views: 78.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:40:01 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (2.6ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:42:08 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 2141ms (Views: 2139.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/navbar/signedout.self-cabb2194ef462edb0645e4a6b3e285ee1ac13ded6166c867600e611dcb310b24.css?body=1" for 127.0.0.1 at 2015-04-29 19:42:10 -0400
+
+
+Started GET "/assets/application.self-b0a96f41f866df02241796cbfae2d4a8ef0aa5255d4c465c1cb84a038e44bc63.css?body=1" for 127.0.0.1 at 2015-04-29 19:42:10 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:42:10 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.3ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (5.3ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:42:13 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 114ms (Views: 113.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:42:14 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (4.7ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:42:29 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 2098ms (Views: 2096.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-ad7356c0211d228b7fb300dd9b4c0396e3e41778d9ece451c90be4db356f9e07.css?body=1" for 127.0.0.1 at 2015-04-29 19:42:31 -0400
+
+
+Started GET "/assets/navbar/signedout.self-5b0ccff0404afa57d5a3897d73bb099a1410f0697f60dae791bc5c6db3f2c18d.css?body=1" for 127.0.0.1 at 2015-04-29 19:42:31 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:42:32 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.3ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (3.8ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:42:35 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 88ms (Views: 87.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:42:35 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (3.8ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:44:36 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 2113ms (Views: 2112.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/navbar/signedout.self-5585a17fd014054161201816f50017f6737f781921f3f7df58b175b32ffae165.css?body=1" for 127.0.0.1 at 2015-04-29 19:44:38 -0400
+
+
+Started GET "/assets/application.self-267573a70c3c49b74a4110ece76ef1c200f99e300f0851966cf34720d3c1eee1.css?body=1" for 127.0.0.1 at 2015-04-29 19:44:38 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:44:39 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.4ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (3.7ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:46:50 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 32ms
+
+Sass::SyntaxError - Invalid CSS after "...ont-size: 1.5em": expected "{", was ";":
+  sass (3.4.13) lib/sass/scss/parser.rb:1165:in `expected'
+  sass (3.4.13) lib/sass/scss/parser.rb:1101:in `expected'
+  sass (3.4.13) lib/sass/scss/parser.rb:1096:in `tok!'
+  sass (3.4.13) lib/sass/scss/parser.rb:641:in `block'
+  sass (3.4.13) lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+  sass (3.4.13) lib/sass/scss/parser.rb:661:in `block_child'
+  sass (3.4.13) lib/sass/scss/parser.rb:653:in `block_contents'
+  sass (3.4.13) lib/sass/scss/parser.rb:642:in `block'
+  sass (3.4.13) lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+  sass (3.4.13) lib/sass/scss/parser.rb:661:in `block_child'
+  sass (3.4.13) lib/sass/scss/parser.rb:650:in `block_contents'
+  sass (3.4.13) lib/sass/scss/parser.rb:642:in `block'
+  sass (3.4.13) lib/sass/scss/parser.rb:635:in `ruleset'
+  sass (3.4.13) lib/sass/scss/parser.rb:660:in `block_child'
+  sass (3.4.13) lib/sass/scss/parser.rb:650:in `block_contents'
+  sass (3.4.13) lib/sass/scss/parser.rb:117:in `stylesheet'
+  sass (3.4.13) lib/sass/scss/parser.rb:42:in `parse'
+  sass (3.4.13) lib/sass/engine.rb:393:in `_to_tree'
+  sass (3.4.13) lib/sass/engine.rb:299:in `to_tree'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+  sass (3.4.13) lib/sass/stack.rb:88:in `block in with_import'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:88:in `with_import'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.13) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `block in visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:157:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:8:in `visit'
+  sass (3.4.13) lib/sass/tree/root_node.rb:36:in `css_tree'
+  sass (3.4.13) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.4.13) lib/sass/engine.rb:268:in `render'
+  sass-rails (5.0.3) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (3.0.1) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:73:in `call_processor'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:55:in `block in call_processors'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:54:in `call_processors'
+  sprockets (3.0.1) lib/sprockets/loader.rb:103:in `load_asset_by_uri'
+  sprockets (3.0.1) lib/sprockets/loader.rb:40:in `block in load'
+  sprockets (3.0.1) lib/sprockets/loader.rb:170:in `fetch_asset_from_dependency_cache'
+  sprockets (3.0.1) lib/sprockets/loader.rb:33:in `load'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.0.1) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.0.1) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.0.1) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:73:in `call_processor'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:55:in `block in call_processors'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:54:in `call_processors'
+  sprockets (3.0.1) lib/sprockets/loader.rb:103:in `load_asset_by_uri'
+  sprockets (3.0.1) lib/sprockets/loader.rb:40:in `block in load'
+  sprockets (3.0.1) lib/sprockets/loader.rb:170:in `fetch_asset_from_dependency_cache'
+  sprockets (3.0.1) lib/sprockets/loader.rb:33:in `load'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.0.1) lib/sprockets/base.rb:63:in `find_asset'
+  sprockets (3.0.1) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.0.1) lib/sprockets/base.rb:89:in `[]'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3003241922745870299_70338248929480'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/b14efcb15c1d3906/variables" for 127.0.0.1 at 2015-04-29 19:46:50 -0400
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:47:07 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 24ms
+
+Sass::SyntaxError - Invalid CSS after "...ont-size: 1.5em": expected "{", was ";":
+  sass (3.4.13) lib/sass/scss/parser.rb:1165:in `expected'
+  sass (3.4.13) lib/sass/scss/parser.rb:1101:in `expected'
+  sass (3.4.13) lib/sass/scss/parser.rb:1096:in `tok!'
+  sass (3.4.13) lib/sass/scss/parser.rb:641:in `block'
+  sass (3.4.13) lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+  sass (3.4.13) lib/sass/scss/parser.rb:661:in `block_child'
+  sass (3.4.13) lib/sass/scss/parser.rb:653:in `block_contents'
+  sass (3.4.13) lib/sass/scss/parser.rb:642:in `block'
+  sass (3.4.13) lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+  sass (3.4.13) lib/sass/scss/parser.rb:661:in `block_child'
+  sass (3.4.13) lib/sass/scss/parser.rb:650:in `block_contents'
+  sass (3.4.13) lib/sass/scss/parser.rb:642:in `block'
+  sass (3.4.13) lib/sass/scss/parser.rb:635:in `ruleset'
+  sass (3.4.13) lib/sass/scss/parser.rb:660:in `block_child'
+  sass (3.4.13) lib/sass/scss/parser.rb:650:in `block_contents'
+  sass (3.4.13) lib/sass/scss/parser.rb:117:in `stylesheet'
+  sass (3.4.13) lib/sass/scss/parser.rb:42:in `parse'
+  sass (3.4.13) lib/sass/engine.rb:393:in `_to_tree'
+  sass (3.4.13) lib/sass/engine.rb:299:in `to_tree'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+  sass (3.4.13) lib/sass/stack.rb:88:in `block in with_import'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:88:in `with_import'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.13) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `block in visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:157:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:8:in `visit'
+  sass (3.4.13) lib/sass/tree/root_node.rb:36:in `css_tree'
+  sass (3.4.13) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.4.13) lib/sass/engine.rb:268:in `render'
+  sass-rails (5.0.3) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (3.0.1) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:73:in `call_processor'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:55:in `block in call_processors'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:54:in `call_processors'
+  sprockets (3.0.1) lib/sprockets/loader.rb:103:in `load_asset_by_uri'
+  sprockets (3.0.1) lib/sprockets/loader.rb:40:in `block in load'
+  sprockets (3.0.1) lib/sprockets/loader.rb:170:in `fetch_asset_from_dependency_cache'
+  sprockets (3.0.1) lib/sprockets/loader.rb:33:in `load'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.0.1) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.0.1) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.0.1) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:73:in `call_processor'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:55:in `block in call_processors'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:54:in `call_processors'
+  sprockets (3.0.1) lib/sprockets/loader.rb:103:in `load_asset_by_uri'
+  sprockets (3.0.1) lib/sprockets/loader.rb:40:in `block in load'
+  sprockets (3.0.1) lib/sprockets/loader.rb:170:in `fetch_asset_from_dependency_cache'
+  sprockets (3.0.1) lib/sprockets/loader.rb:33:in `load'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.0.1) lib/sprockets/base.rb:63:in `find_asset'
+  sprockets (3.0.1) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.0.1) lib/sprockets/base.rb:89:in `[]'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3003241922745870299_70338248929480'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/9f1b0a94135edf44/variables" for 127.0.0.1 at 2015-04-29 19:47:07 -0400
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:47:09 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 20ms
+
+Sass::SyntaxError - Invalid CSS after "...ont-size: 1.5em": expected "{", was ";":
+  sass (3.4.13) lib/sass/scss/parser.rb:1165:in `expected'
+  sass (3.4.13) lib/sass/scss/parser.rb:1101:in `expected'
+  sass (3.4.13) lib/sass/scss/parser.rb:1096:in `tok!'
+  sass (3.4.13) lib/sass/scss/parser.rb:641:in `block'
+  sass (3.4.13) lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+  sass (3.4.13) lib/sass/scss/parser.rb:661:in `block_child'
+  sass (3.4.13) lib/sass/scss/parser.rb:653:in `block_contents'
+  sass (3.4.13) lib/sass/scss/parser.rb:642:in `block'
+  sass (3.4.13) lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+  sass (3.4.13) lib/sass/scss/parser.rb:661:in `block_child'
+  sass (3.4.13) lib/sass/scss/parser.rb:650:in `block_contents'
+  sass (3.4.13) lib/sass/scss/parser.rb:642:in `block'
+  sass (3.4.13) lib/sass/scss/parser.rb:635:in `ruleset'
+  sass (3.4.13) lib/sass/scss/parser.rb:660:in `block_child'
+  sass (3.4.13) lib/sass/scss/parser.rb:650:in `block_contents'
+  sass (3.4.13) lib/sass/scss/parser.rb:117:in `stylesheet'
+  sass (3.4.13) lib/sass/scss/parser.rb:42:in `parse'
+  sass (3.4.13) lib/sass/engine.rb:393:in `_to_tree'
+  sass (3.4.13) lib/sass/engine.rb:299:in `to_tree'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+  sass (3.4.13) lib/sass/stack.rb:88:in `block in with_import'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:88:in `with_import'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+  sass (3.4.13) lib/sass/stack.rb:79:in `block in with_base'
+  sass (3.4.13) lib/sass/stack.rb:115:in `with_frame'
+  sass (3.4.13) lib/sass/stack.rb:79:in `with_base'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:158:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:52:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `block in visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+  sass (3.4.13) lib/sass/tree/visitors/base.rb:36:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:157:in `visit'
+  sass (3.4.13) lib/sass/tree/visitors/perform.rb:8:in `visit'
+  sass (3.4.13) lib/sass/tree/root_node.rb:36:in `css_tree'
+  sass (3.4.13) lib/sass/tree/root_node.rb:20:in `render'
+  sass (3.4.13) lib/sass/engine.rb:268:in `render'
+  sass-rails (5.0.3) lib/sass/rails/template.rb:47:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (3.0.1) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:73:in `call_processor'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:55:in `block in call_processors'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:54:in `call_processors'
+  sprockets (3.0.1) lib/sprockets/loader.rb:103:in `load_asset_by_uri'
+  sprockets (3.0.1) lib/sprockets/loader.rb:40:in `block in load'
+  sprockets (3.0.1) lib/sprockets/loader.rb:170:in `fetch_asset_from_dependency_cache'
+  sprockets (3.0.1) lib/sprockets/loader.rb:33:in `load'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.0.1) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.0.1) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.0.1) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:73:in `call_processor'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:55:in `block in call_processors'
+  sprockets (3.0.1) lib/sprockets/processor_utils.rb:54:in `call_processors'
+  sprockets (3.0.1) lib/sprockets/loader.rb:103:in `load_asset_by_uri'
+  sprockets (3.0.1) lib/sprockets/loader.rb:40:in `block in load'
+  sprockets (3.0.1) lib/sprockets/loader.rb:170:in `fetch_asset_from_dependency_cache'
+  sprockets (3.0.1) lib/sprockets/loader.rb:33:in `load'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.0.1) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.0.1) lib/sprockets/base.rb:63:in `find_asset'
+  sprockets (3.0.1) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.0.1) lib/sprockets/base.rb:89:in `[]'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.2.4) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3003241922745870299_70338248929480'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/c9951a09c59c61c9/variables" for 127.0.0.1 at 2015-04-29 19:47:09 -0400
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:47:23 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 2059ms (Views: 2058.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/navbar/signedout.self-53e3499bae97d112880d31242190e5e6f5f0136db8850a7603347edc0f6dfc8c.css?body=1" for 127.0.0.1 at 2015-04-29 19:47:25 -0400
+
+
+Started GET "/assets/application.self-083bf7f68c393376976ddca377d7254495316b0dc99e758f67744cb0672d2944.css?body=1" for 127.0.0.1 at 2015-04-29 19:47:25 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:47:26 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (3.7ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:47:54 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 2085ms (Views: 2083.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-7502b25bc3945398ba644fada495c1550110ee48b852020ec7942e30faddc890.css?body=1" for 127.0.0.1 at 2015-04-29 19:47:56 -0400
+
+
+Started GET "/assets/navbar/signedout.self-d232cdc8d4a02f05affd2298a53eb2b4811754870e0886998a8a1bb4c2c2774d.css?body=1" for 127.0.0.1 at 2015-04-29 19:47:56 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:47:56 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (2.6ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:53:01 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 2147ms (Views: 2146.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-b68d3505378caadd197fa9791110cee7a2afd04799a3a12b3a570b76c6522470.css?body=1" for 127.0.0.1 at 2015-04-29 19:53:03 -0400
+
+
+Started GET "/assets/navbar/signedout.self-3f7bfe781309c0882f372f47df40d00b232c5c894a34e71e30c88981c84f29c7.css?body=1" for 127.0.0.1 at 2015-04-29 19:53:03 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:53:03 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (4.3ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:54:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 395ms (Views: 381.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:54:43 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.3ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (11.0ms)
+Completed 200 OK in 19ms (Views: 15.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:54:59 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 2652ms (Views: 2650.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/login/sessions.self-02efe6afbac19988d5156b147bcb54b3250e6e432a6545590d4ecbc1b614d2e1.css?body=1" for 127.0.0.1 at 2015-04-29 19:55:02 -0400
+
+
+Started GET "/assets/application.self-4b74f3222b7fe06884e4ad8e0740b3ae2a3794090e84a8dd9edf2adda14bf9e2.css?body=1" for 127.0.0.1 at 2015-04-29 19:55:02 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:55:02 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (3.5ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:55:25 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 2040ms (Views: 2038.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:55:27 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.3ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (3.0ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:57:59 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 2089ms (Views: 2088.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/login/sessions.self-8073cfd891a585dae6d64582378fb377c1abb50999d56bbcadb6bd6ef4a44878.css?body=1" for 127.0.0.1 at 2015-04-29 19:58:01 -0400
+
+
+Started GET "/assets/application.self-4f357fbb05b07e3678fcaabc4545356e38e3c0340343267ee1588c1820aefa5a.css?body=1" for 127.0.0.1 at 2015-04-29 19:58:01 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:58:02 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (5.7ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:58:34 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 2141ms (Views: 2140.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/login/sessions.self-8187891e2088fc53337ffb38e5cd4a47ca0d47c8774fb052ce0b8c41cfe7bd53.css?body=1" for 127.0.0.1 at 2015-04-29 19:58:36 -0400
+
+
+Started GET "/assets/application.self-c75b01e00950423356c8f99266b1748c62144a6d1f88312cac359a7a2d00498e.css?body=1" for 127.0.0.1 at 2015-04-29 19:58:36 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:58:37 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.5ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (5.1ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 19:58:53 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 2108ms (Views: 2107.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-48028f97d5e665f42296103a6422e3a1d1c2cd2800fe2599d64a8353bb14980b.css?body=1" for 127.0.0.1 at 2015-04-29 19:58:55 -0400
+
+
+Started GET "/assets/login/sessions.self-2020680a6c406ca6f38548cf0cd049385b5e3d31c8a9c06cd82ccd3b82c409e8.css?body=1" for 127.0.0.1 at 2015-04-29 19:58:55 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 19:58:56 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (2.3ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 20:00:32 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 2102ms (Views: 2101.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-a75ea146bedd4ca9faecd4a7eb8ea7f2c84f71daccd2f09015c83494c9ad58cf.css?body=1" for 127.0.0.1 at 2015-04-29 20:00:34 -0400
+
+
+Started GET "/assets/login/sessions.self-781f4980ca87e1660a560ec9fbdcad7fefb2faedd9416cf734ec7c4496ce0a7c.css?body=1" for 127.0.0.1 at 2015-04-29 20:00:34 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 20:00:34 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.2ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (4.1ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 20:01:24 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 2106ms (Views: 2104.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/login/sessions.self-6baa3a6e8ff6cbe62d208ad7390acdb29fa6ad0209f52bbe94f468a62c748146.css?body=1" for 127.0.0.1 at 2015-04-29 20:01:26 -0400
+
+
+Started GET "/assets/application.self-3db92e6c11615a7ab5de18834388a72941c92126c5f034e982c1059ddd0bba94.css?body=1" for 127.0.0.1 at 2015-04-29 20:01:26 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 20:01:26 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.2ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (2.8ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 20:01:45 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 2065ms (Views: 2064.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/login/sessions.self-3d72ba3e742489334202c5fd2c6748029ab4e7a6e0a72cd06ea53861fbb3d079.css?body=1" for 127.0.0.1 at 2015-04-29 20:01:47 -0400
+
+
+Started GET "/assets/application.self-bdd6f18d81fc7cf47d727a7d50ddc39ff3d913ef4ed8228827d7e71f9df0c9bf.css?body=1" for 127.0.0.1 at 2015-04-29 20:01:47 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 20:01:47 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.4ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (6.1ms)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 20:02:08 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 2073ms (Views: 2071.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/login/sessions.self-d600422f358a2d6735493def3f84c43786d6843854ca09facc77affb887ffafc.css?body=1" for 127.0.0.1 at 2015-04-29 20:02:10 -0400
+
+
+Started GET "/assets/application.self-a5cacef2f5630104eb5ff1eb2bc02d0fb6b1595a07cdf742ea52736ae865d089.css?body=1" for 127.0.0.1 at 2015-04-29 20:02:10 -0400
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 20:02:10 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[36mNbaplayer Load (0.3ms)[0m  [1mSELECT "nbaplayers".* FROM "nbaplayers"[0m
+  Rendered nbaplayers/index.json.jbuilder (3.5ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign-in" for 127.0.0.1 at 2015-04-29 20:02:22 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 79ms (Views: 78.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/nbaplayers.json" for 127.0.0.1 at 2015-04-29 20:02:22 -0400
+Processing by NbaplayersController#index as JSON
+  [1m[35mNbaplayer Load (0.3ms)[0m  SELECT "nbaplayers".* FROM "nbaplayers"
+  Rendered nbaplayers/index.json.jbuilder (4.1ms)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.3ms)

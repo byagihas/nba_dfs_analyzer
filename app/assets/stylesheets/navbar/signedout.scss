@@ -1,20 +1,17 @@
 .signed-out{
-  li{
-    list-style-type: none;
-    display: inline;
-    padding: .5em;
-    background-color: white;
-    border-radius: 3px;
-    color: white;
-  }
-  li:hover{
-    background-color: gray;
-  }
   a{
+    background-color: black;
+    font-size: 1.5em;
+    padding: .5em;
     text-decoration: none;
-    color: black;
+    color: white;
+    width: 1em;
+    transition: background-color 1s;
+    border-radius: .3em;
   }
   a:hover{
-    color: white
+    color: white;
+    background-color: gray;
+    border-radius: .3em;
   }
 }
