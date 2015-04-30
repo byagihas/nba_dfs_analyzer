@@ -27,7 +27,7 @@
         <% end %>
         <tr>
           <% if user_signed_in? %>
-            <td><%= button_to 'Add more players', list_path %></td>
+            <td class="addmore"><%= link_to 'Add more players', list_path %></td>
           <% end %>
         </tr>
     </tbody>

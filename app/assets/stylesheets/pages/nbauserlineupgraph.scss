@@ -1,20 +1,20 @@
-@import "base/variables.scss";
+$graphrectcolor: #95a5a6;
 
 .graph{
   p{
     text-align: center;
   }
   svg{
-    background-color: gray;
+    background-color: $navhovercolor;
     display: block;
     margin: 0 auto;
     vertical-align: middle;
     padding-top: 1em;
   }
   rect{
-    fill: $concrete;
+    fill: $graphrectcolor;
   }
   g{
-    fill: white;
+    fill: $navhovercolor;
   }
 }

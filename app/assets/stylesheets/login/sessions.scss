@@ -1,7 +1,7 @@
 // Place all the styles related to the sessions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-@import "base/variables.scss";
+$loginformbg: #ecf0f1;
 .notice{
   margin: 0 auto;
   text-align: center;
@@ -11,7 +11,7 @@
   text-align: center;
 }
 .loginform{
-  background-color: $clouds;
+  background-color: $loginformbg;
   border-radius: 1em;
   margin: 0 auto;
   width: 15em;

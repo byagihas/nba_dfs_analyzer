@@ -1,16 +1,16 @@
 .signed-out{
   a{
-    background-color: black;
+    background-color: $navbgcolor;
     font-size: 1.5em;
     padding: .5em;
     text-decoration: none;
-    color: white;
+    color: $navlinkcolor;
     width: 1em;
     transition: background-color 1s;
     border-radius: .3em;
   }
   a:hover{
-    color: white;
+    color: $navlinkcolor;
     background-color: gray;
     border-radius: .3em;
   }

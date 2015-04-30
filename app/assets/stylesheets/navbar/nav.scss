@@ -1,7 +1,5 @@
-@import 'base/variables.scss';
-
 .navbar{
-  background-color: black;
+  background-color: $navbgcolor;
   padding: 2em;
   text-align: center;
   .menu{
@@ -12,12 +10,12 @@
       padding: 1em;
     }
     a{
-      color: white;
+      color: $navlinkcolor;
       text-decoration: none;
       font-size: 1.8em;
     }
     a:hover{
-     color: gray;
+     color: $navhovercolor;
      text-decoration: none;
       }
   }
@@ -25,6 +23,6 @@
     float: right;
     border-radius: .2em;
     padding: .3em;
-    color: white;
+    color: $navlinkcolor;
   }
 }
