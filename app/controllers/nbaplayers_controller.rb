@@ -5,7 +5,7 @@ require 'json'
 require 'open-uri'
 
 class NbaplayersController < ApplicationController
-  before_action :only_allow_signed_in_users, except: [:index, :show, :home]
+  before_action except: [:index, :show, :home]
   before_action :set_nbaplayer, only: [:show, :edit, :update, :destroy]
 
   # GET /nbaplayers
@@ -15,6 +15,7 @@ class NbaplayersController < ApplicationController
   end
 
   def list
+    @nbaplayers = Nbaplayer.all
     url = "http://www.rotowire.com/daily/nba/optimizer.htm"
     agent = Mechanize.new { |agent| agent.user_agent_alias = "Mac Safari" }
     html = agent.get(url).body
@@ -57,7 +58,7 @@ class NbaplayersController < ApplicationController
     @nbaplayer = Nbaplayer.new(nbaplayer_params)
     respond_to do |format|
       if @nbaplayer.save
-        format.html { redirect_to nbaplayers_path}
+        format.html { redirect_to list_path}
         format.json { render :show, status: :created, location: @nbaplayer }
       else
         format.html { render :new }
@@ -85,7 +86,7 @@ class NbaplayersController < ApplicationController
   def destroy
     @nbaplayer.destroy
     respond_to do |format|
-      format.html { redirect_to nbaplayers_url }
+      format.html { redirect_to list_path }
       format.json { head :no_content }
     end
   end

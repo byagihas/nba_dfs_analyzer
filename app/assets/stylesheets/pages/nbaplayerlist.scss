@@ -1,22 +1,19 @@
 .plist{
-  h3{
-    text-align: center;
-  }
   .players-list-table{
-    margin: 0 auto;
-    vertical-align: middle;
+    width: 5em;
     background-color: $playertablebg;
     thead{
       padding: 1em;
       tr{
         th{
           font-size: 1.2em;
-          text-align: center;
           padding: .5em;
         }
       }
     }
     tbody{
+      max-height: 300px;
+      overflow: auto;
       tr{
         td{
           
@@ -24,7 +21,6 @@
       }
     }
     td{
-      text-align: center;
       padding: .5em;
     }
   }

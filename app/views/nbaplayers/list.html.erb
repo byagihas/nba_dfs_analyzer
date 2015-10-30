@@ -1,6 +1,6 @@
-<section class="plist">
-  <h3>Listing NBA Players</h3>
-  <table class="players-list-table">
+<div class="plist">
+  <h1>FanDuel List</h1>
+  <table class="players-list-table sortable">
     <thead>
       <tr>
         <th>Name</th>
@@ -24,4 +24,38 @@
       <% end %>
     </tbody>
   </table>
-<section>
+</div>
+<div class="userlineup">
+  <p id="notice"><%= notice %></p>
+  <h3>User Lineup</h3>
+  <table class="user-lineup-table sortable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Team</th>
+        <th>Average Points</th>
+        <th>Cost</th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @nbaplayers.each do |nbaplayer| %>
+        <tr>
+          <td><%= nbaplayer[:name] %></td>
+          <td><%= nbaplayer[:position] %></td>
+          <td><%= nbaplayer[:team]%></td>
+          <td><%= nbaplayer[:avgpoints] %></td>
+          <td><%= nbaplayer[:cost] %></td>
+          <td><%= button_to 'Remove', nbaplayer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+        <% end %>
+        <tr>
+          <% if user_signed_in? %>
+            <td class="addmore"><%= link_to 'Add more players', list_path %></td>
+          <% end %>
+        </tr>
+    </tbody>
+  </table>
+  <br>
+</div>

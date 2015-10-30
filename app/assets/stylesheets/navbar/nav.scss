@@ -1,9 +1,7 @@
 .navbar{
-  background-color: $navbgcolor;
+  background-color: rgba(0,0,0,.5);
   padding: 2em;
-  text-align: center;
   .menu{
-    float: left;
     li{
       display: inline;
       text-decoration: none;
@@ -12,7 +10,7 @@
     a{
       color: $navlinkcolor;
       text-decoration: none;
-      font-size: 1.8em;
+      font-size: 1.5em;
     }
     a:hover{
      color: $navhovercolor;
@@ -20,9 +18,9 @@
       }
   }
   .login{
-    float: right;
     border-radius: .2em;
     padding: .3em;
     color: $navlinkcolor;
+    float: middle;
   }
 }

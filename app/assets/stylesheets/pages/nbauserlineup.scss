@@ -1,24 +1,22 @@
 .userlineup{
+  float: middle-right;
+  width: 5em;
   h3{
     text-align: center;
   }
   .user-lineup-table{
     border-radius: 1em;
-    margin: 0 auto;
-    vertical-align: middle;
     background-color: $playertablebg;
     thead{
       padding: 1em;
       tr{
         th{
           font-size: 1.2em;
-          text-align: center;
           padding: .5em;
         }
       }
     }
     td{
-      text-align: center;
       padding: .5em;
     }
   }

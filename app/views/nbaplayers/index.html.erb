@@ -1,7 +1,34 @@
-<section class="userlineup">
+<div class="plist">
+  <h1>FanDuel ListM</h1>
+  <table class="players-list-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Team</th>
+        <th>Average Points</th>
+        <th>Cost</th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @players.each do |player| %>
+        <tr>
+          <td><%= player[:position] %></td>
+          <td><%= player[:name] %></td>
+          <td><%= player[:team] %></td>
+          <td><%= player[:avgpoints] %></td>
+          <td><%= player[:cost] %></td>
+          <td><%= button_to "Add", {:controller => "nbaplayers", :action => "create", :name=>player[:name],:position=>player[:position],:team=>player[:team],:avgpoints=>player[:avgpoints],:cost=>player[:cost].delete('/$/,/').to_i}, :method=>:post %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<div>
+<div class="userlineup">
   <p id="notice"><%= notice %></p>
   <h3>Listing NBA Players</h3>
-  <table class="user-lineup-table">
+  <table class="user-lineup-table sortable">
     <thead>
       <tr>
         <th>Name</th>
@@ -20,6 +47,7 @@
           <td><%= nbaplayer[:team]%></td>
           <td><%= nbaplayer[:avgpoints] %></td>
           <td><%= nbaplayer[:cost] %></td>
+          <td><%= button_to "+", {} %></td>
           <% if user_signed_in? %>
             <td><%= button_to 'Remove', nbaplayer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
           <% end %>
@@ -36,4 +64,4 @@
   <div class="graph">
     <p>Dollars per point</p>
   </div>
-</section>
+</div>
