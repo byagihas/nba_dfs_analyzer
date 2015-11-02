@@ -1,5 +1,6 @@
 .plist{
   .players-list-table{
+    float: left;
     width: 5em;
     background-color: $playertablebg;
     thead{
@@ -8,6 +9,7 @@
         th{
           font-size: 1.2em;
           padding: .5em;
+          text-align: left;
         }
       }
     }
@@ -16,12 +18,9 @@
       overflow: auto;
       tr{
         td{
-          
+          padding: .5em;
         }
       }
-    }
-    td{
-      padding: .5em;
     }
   }
 }

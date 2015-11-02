@@ -1,6 +1,7 @@
 .navbar{
   background-color: rgba(0,0,0,.5);
   padding: 2em;
+  float: top;
   .menu{
     li{
       display: inline;
@@ -21,6 +22,5 @@
     border-radius: .2em;
     padding: .3em;
     color: $navlinkcolor;
-    float: middle;
   }
 }

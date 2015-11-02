@@ -37,6 +37,8 @@ class NbaplayersController < ApplicationController
       end
     player
     end
+    @costsum = Nbaplayer.sum(:cost)
+    @avgsum = Nbaplayer.sum(:avgpoints)
   end
   # GET /nbaplayers/1
   # GET /nbaplayers/1.json
