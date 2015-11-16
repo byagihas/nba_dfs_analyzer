@@ -27,6 +27,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'mechanize'
 gem 'nokogiri'
 gem 'd3-rails'
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -43,4 +44,3 @@ group :development, :test do
   gem 'spring'
   gem 'sqlite3'
 end
-

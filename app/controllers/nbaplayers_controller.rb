@@ -16,6 +16,7 @@ class NbaplayersController < ApplicationController
 
   def list
     @nbaplayers = Nbaplayer.all
+    @lineup_item = current_lineup.lineup_items.new
     url = "http://www.rotowire.com/daily/nba/optimizer.htm"
     agent = Mechanize.new { |agent| agent.user_agent_alias = "Mac Safari" }
     html = agent.get(url).body

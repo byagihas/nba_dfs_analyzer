@@ -1,8 +1,14 @@
 Rails.application.routes.draw do
-  resources :mlbplayers
+  get 'lineup_items/create'
+
+  get 'lineup_items/update'
+
+  get 'lineup_items/destroy'
 
   resources :nbaplayers
   resources :sessions, only: [:new, :create, :destroy, :list]
+  resource :lineup, only: [:index]
+  resources :lineup_items, only: [:create, :update, :destroy]
 
   get '/list' => 'nbaplayers#list'
   get '/sign-in' => 'sessions#new'

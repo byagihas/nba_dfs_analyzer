@@ -11,7 +11,35 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150426223129) do
+ActiveRecord::Schema.define(version: 20151116211937) do
+
+  create_table "line_up_statuses", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "lineup_items", force: :cascade do |t|
+    t.integer  "player_id"
+    t.integer  "lineup_id"
+    t.decimal  "unit_cost"
+    t.integer  "quantity"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "lineup_items", ["lineup_id"], name: "index_lineup_items_on_lineup_id"
+  add_index "lineup_items", ["player_id"], name: "index_lineup_items_on_player_id"
+
+  create_table "lineups", force: :cascade do |t|
+    t.decimal  "totalavg"
+    t.decimal  "avgmin"
+    t.integer  "totalcost"
+    t.decimal  "totalassists"
+    t.decimal  "totalrebs"
+    t.decimal  "totalsteals"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
 
   create_table "mlbplayers", force: :cascade do |t|
     t.string   "name"

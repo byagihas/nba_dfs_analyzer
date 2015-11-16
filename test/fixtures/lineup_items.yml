@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  player_id: 
+  lineup_id: 
+  unit_cost: 9.99
+  quantity: 1
+
+two:
+  player_id: 
+  lineup_id: 
+  unit_cost: 9.99
+  quantity: 1

@@ -19,16 +19,6 @@
       </ul>
     </div>
     <div class="login">
-       <% if user_signed_in? %>
-       <ul class="signed-in">
-         <li>Signed in in as <%= current_user.email %></li>
-         <%= link_to "Sign Out", sign_out_path, method: :delete %>
-       </ul>
-       <% else %>
-       <ul class="signed-out">
-         <%= link_to "Sign In", sign_in_path %>
-       </ul>
-       <% end %>
     </div>
   </nav>
   <div class="content">
