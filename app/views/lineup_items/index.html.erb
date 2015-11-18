@@ -1,0 +1,13 @@
+<table>
+  <tbody>
+<% @lineup_items.each do |lineup_item| %>
+        <tr>
+          <td><%= lineup_item[:position] %></td>
+          <td><%= lineup_item[:name] %></td>
+          <td><%= lineup_item[:team]%></td>
+          <td><%= lineup_item[:avgpoints] %></td>
+          <td><%= lineup_item[:cost] %></td>
+        </tr>
+<% end %>
+  </tbody>
+</table>

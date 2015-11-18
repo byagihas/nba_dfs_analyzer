@@ -5,7 +5,4 @@ class Nbaplayer < ActiveRecord::Base
   cost_limit = 50000
   has_many :lineup_items
 
-  def only_has_two_pg
-  end
-
 end

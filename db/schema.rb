@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151116211937) do
+ActiveRecord::Schema.define(version: 20151118205526) do
 
   create_table "line_up_statuses", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -21,10 +21,14 @@ ActiveRecord::Schema.define(version: 20151116211937) do
   create_table "lineup_items", force: :cascade do |t|
     t.integer  "player_id"
     t.integer  "lineup_id"
-    t.decimal  "unit_cost"
     t.integer  "quantity"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "cost"
+    t.float    "avgpoints"
+    t.string   "position"
+    t.text     "name"
+    t.text     "team"
   end
 
   add_index "lineup_items", ["lineup_id"], name: "index_lineup_items_on_lineup_id"

@@ -2,11 +2,6 @@ class LineupItem < ActiveRecord::Base
     belongs_to :nbaplayer
     belongs_to :lineup
 
-    validates :quantity, presence: true, numericality: { only_integer: true, greater_than: 0 }
-    validate :nbaplayer_present
-    validate :lineup_present
-
-    before_save :finalize
 
     def player_cost
       if persisted?
@@ -21,7 +16,7 @@ class LineupItem < ActiveRecord::Base
     end
 
   private
-    def player_present
+    def nbaplayer_present
       if nbaplayer.nil?
         errors.add(:nbaplayer, "is not valid or is not active.")
       end
@@ -33,8 +28,4 @@ class LineupItem < ActiveRecord::Base
       end
     end
 
-    def finalize
-      self[:player_cost] = player_cost
-      self[:total_cost] = quantity * self[:player_cost]
-    end
 end

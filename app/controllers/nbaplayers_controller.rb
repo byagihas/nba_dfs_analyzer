@@ -10,13 +10,8 @@ class NbaplayersController < ApplicationController
 
   # GET /nbaplayers
   # GET /nbaplayers.json
-  def index
-    @nbaplayers = Nbaplayer.all
-  end
-
   def list
     @nbaplayers = Nbaplayer.all
-    @lineup_item = current_lineup.lineup_items.new
     url = "http://www.rotowire.com/daily/nba/optimizer.htm"
     agent = Mechanize.new { |agent| agent.user_agent_alias = "Mac Safari" }
     html = agent.get(url).body
@@ -36,10 +31,8 @@ class NbaplayersController < ApplicationController
       ].each do |name, xpath|
           player[name] = l.at_xpath(xpath).to_s.strip
       end
-    player
+    Nbaplayer.create(:position=>player[:position],:name=>player[:name], :avgpoints=>player[:avgpoints], :team=>player[:team], :cost=>player[:cost])
     end
-    @costsum = Nbaplayer.sum(:cost)
-    @avgsum = Nbaplayer.sum(:avgpoints)
   end
   # GET /nbaplayers/1
   # GET /nbaplayers/1.json
@@ -51,6 +44,9 @@ class NbaplayersController < ApplicationController
     @nbaplayer = Nbaplayer.new
   end
 
+  def index
+    @nbaplayers=Nbaplayer.where(:id =>LineupItem.select(:id).map(&:id))
+  end
   # GET /nbaplayers/1/edit
   def edit
   end
@@ -93,6 +89,12 @@ class NbaplayersController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def add
+    lineup_players ||= Array.new
+    lineup_players.push(params[:id])
+  end
+
 
   private
     # Use callbacks to share common setup or constraints between actions.

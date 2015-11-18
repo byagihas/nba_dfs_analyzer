@@ -5,7 +5,7 @@ class Lineup < ActiveRecord::Base
   before_save :update_total
 
   def total
-    lineup_items.collect{ |oi| oi.valid? ? (oi.quantity*oi.player_cost) : 0}.sum
+    lineup_items.collect{ |oi| oi.valid? ? (oi.quantity*oi.cost) : 0}.sum
   end
 private
   def set_lineup_status

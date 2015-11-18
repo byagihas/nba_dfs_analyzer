@@ -12,7 +12,19 @@
     There are no items in your shopping cart.  Please <%= link_to "go back", root_path %> and add some items to your cart.
   </p>
 <% else %>
+  <table>
+  <tbody>
   <% @lineup_items.each do |lineup_item| %>
-    <%= render 'carts/cart_row', product: lineup_item.product, lineup_item: lineup_item, show_total: true %>
-  <% end %>
+      <tr>
+          <td><%= lineup_item[:position] %></td>
+          <td><%= lineup_item[:name] %></td>
+          <td><%= lineup_item[:team]%></td>
+          <td><%= lineup_[:avgpoints] %></td>
+          <td><%= [:cost] %></td>
+          <td><%= button_to "Add", {:controller => lineup_items_path, :action=>"create", :id=>[:id], :position=>[:position], :team =>[:team], :avgpoints =>[:avgpoints], :cost=>[:cost], method: :post }%>
+        </tr>
+<% end %>
+  </tr>
+  </tbody>
+  </table
 <% end %>
