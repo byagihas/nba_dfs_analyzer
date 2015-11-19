@@ -1,25 +1,42 @@
-.plist{
-  .players-list-table{
+.roster{
+  display: block;
+  .player_roster{
+    margin: 0 auto;
+    width: 15em;
+    table-layout: fixed;
+    background-color: rgba(255,255,255,.8);
     float: left;
-    width: 5em;
-    background-color: $playertablebg;
+    padding: .5em;
     thead{
       padding: 1em;
       tr{
         th{
-          font-size: 1.2em;
-          padding: .5em;
+          font-size: 1em;
           text-align: left;
+          padding: .5em;
+          width: 100px;
         }
+      }
+      .leftmost{
+          width: 75px;
       }
     }
     tbody{
-      max-height: 300px;
-      overflow: auto;
       tr{
+        background-color: rgba(255,255,255,.7);
         td{
           padding: .5em;
+          width: 100px;
+          text-align: left;
+          border: 1px solid rgba(0,0,0,.3);
         }
+      }
+      tr:hover{
+        background-color: rgba(100,200,70,.7);
+      }
+      .leftmost{
+        background-color: rgba(100,200,70,.7);
+        width: 75px;
       }
     }
   }

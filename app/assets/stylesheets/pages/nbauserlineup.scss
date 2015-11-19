@@ -1,22 +1,43 @@
 .userlineup{
-  width: 5em;
-  h3{
-    text-align: left;
-  }
+  display: block;
   .user-lineup-table{
-    border-radius: 1em;
-    background-color: $playertablebg;
+    margin: 0 auto;
+    width: 15em;
+    table-layout: fixed;
+    background-color: rgba(255,255,255,.8);
+    float: middle;
+    padding: .5em;
     thead{
       padding: 1em;
       tr{
         th{
-          font-size: 1.2em;
+          font-size: 1em;
+          text-align: left;
           padding: .5em;
+          width: 150px;
         }
       }
+      .leftmost{
+          width: 75px;
+      }
     }
-    td{
-      padding: .5em;
+    tbody{
+      tr{
+        background-color: rgba(255,255,255,.7);
+        td{
+          padding: .5em;
+          width: 150px;
+          text-align: left;
+          border: 1px solid rgba(0,0,0,.3);
+        }
+      }
+      tr:hover{
+        background-color: rgba(100,200,70,.7);
+      }
+      .leftmost{
+        background-color: rgba(100,200,70,.7);
+        width: 75px;
+      }
     }
   }
 }

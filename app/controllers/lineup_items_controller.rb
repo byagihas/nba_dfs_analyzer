@@ -9,8 +9,17 @@ class LineupItemsController < ApplicationController
   end
 
   def create
-    @lineup_item =  LineupItem.new(lineup_item_params)
-    @lineup_item.save
+    @lineup_item = LineupItem.new(lineup_item_params)
+
+    respond_to do |format|
+      if @lineup_item.save
+        format.html { redirect_to list_path}
+        format.json { render :show, status: :created, location: @lineup_item }
+      else
+        format.html { render :new }
+        format.json { render json: @lineup_item.errors, status: :unprocessable_entity }
+      end
+    end
   end
 
   def update
@@ -26,6 +35,7 @@ class LineupItemsController < ApplicationController
     @lineup_item.destroy
     @lineup_items = @lineup.lineup_items
   end
+
 private
   def lineup_item_params
     params.permit(:id)

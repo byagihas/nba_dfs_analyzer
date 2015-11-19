@@ -31,8 +31,9 @@ class NbaplayersController < ApplicationController
       ].each do |name, xpath|
           player[name] = l.at_xpath(xpath).to_s.strip
       end
-    Nbaplayer.create(:position=>player[:position],:name=>player[:name], :avgpoints=>player[:avgpoints], :team=>player[:team], :cost=>player[:cost])
+        Nbaplayer.create(:position=>player[:position],:name=>player[:name], :avgpoints=>player[:avgpoints], :team=>player[:team], :cost=>(player[:cost].tr('$','')).to_i)
     end
+    @players=Nbaplayer.where(:id =>LineupItem.select(:id).map(&:id))
   end
   # GET /nbaplayers/1
   # GET /nbaplayers/1.json
@@ -45,7 +46,6 @@ class NbaplayersController < ApplicationController
   end
 
   def index
-    @nbaplayers=Nbaplayer.where(:id =>LineupItem.select(:id).map(&:id))
   end
   # GET /nbaplayers/1/edit
   def edit
@@ -83,18 +83,12 @@ class NbaplayersController < ApplicationController
   # DELETE /nbaplayers/1
   # DELETE /nbaplayers/1.json
   def destroy
-    @nbaplayer.destroy
+    LineupItem.destroy(params[:id])
     respond_to do |format|
       format.html { redirect_to list_path }
       format.json { head :no_content }
     end
   end
-
-  def add
-    lineup_players ||= Array.new
-    lineup_players.push(params[:id])
-  end
-
 
   private
     # Use callbacks to share common setup or constraints between actions.

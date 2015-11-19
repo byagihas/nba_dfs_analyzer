@@ -30,8 +30,6 @@ gem 'd3-rails'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 # Use Unicorn as the app server
 # gem 'unicorn'
-gem 'redis'
-gem 'hiredis'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

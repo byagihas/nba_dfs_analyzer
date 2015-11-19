@@ -1,6 +1,6 @@
 .navbar{
-  background-color: rgba(0,0,0,.5);
-  padding: 2em;
+  background-color: rgba(225,225,225,.5);
+  padding: 1.5em;
   .menu{
     li{
       display: inline;
@@ -8,7 +8,7 @@
       padding: 1em;
     }
     a{
-      color: $navlinkcolor;
+      color: rgba(100,200,75,.8);
       text-decoration: none;
       font-size: 1.5em;
     }
