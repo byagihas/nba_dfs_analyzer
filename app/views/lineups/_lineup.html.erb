@@ -9,21 +9,21 @@
 <% end %>
 <% if @lineup_items.size == 0 %>
   <p class="text-center">
-    There are no items in your shopping cart.  Please <%= link_to "go back", root_path %> and add some items to your cart.
+    No Players. Please <%= link_to "go back", root_path %> and add players.
   </p>
 <% else %>
-  <table>
-  <tbody>
-  <% @lineup_items.each do |lineup_item| %>
-      <tr>
-          <td><%= lineup_item[:position] %></td>
-          <td><%= lineup_item[:name] %></td>
-          <td><%= lineup_item[:team]%></td>
-          <td><%= lineup_[:avgpoints] %></td>
-          <td><%= [:cost] %></td>
-          <td><%= button_to "Add", {:controller => lineup_items_path, :action=>"create", :id=>[:id], :position=>[:position], :team =>[:team], :avgpoints =>[:avgpoints], :cost=>[:cost], method: :post }%>
-        </tr>
-<% end %>
+<table>
+<tbody>
+    <% @lineup_items.each do |lineup_item| %>
+    <tr>
+    <td><%= lineup_item[:position] %></td>
+    <td><%= lineup_item[:name] %></td>
+    <td><%= lineup_item[:team]%></td>
+    <td><%= lineup_[:avgpoints] %></td>
+    <td><%= [:cost] %></td>
+    <td><%= button_to "Add", {:controller => lineup_items_path, :action=>"create", :id=>[:id], :position=>[:position], :team =>[:team], :avgpoints =>[:avgpoints], :cost=>[:cost], method: :post }%>
+    </tr>
+    <% end %>
   </tr>
   </tbody>
   </table

@@ -1,7 +1,6 @@
 class LineupItem < ActiveRecord::Base
-    belongs_to :nbaplayer
+    has_one :nbaplayer
     belongs_to :lineup
-
 
     def player_cost
       if persisted?

@@ -1,0 +1,10 @@
+<% @nbaplayers.where(:position=>'PG').each do |nbaplayer|%>
+  <tr>
+    <td><%= nbaplayer[:position] %></td>
+    <td><%= nbaplayer[:name] %></td>
+    <td><%= nbaplayer[:team]%></td>
+    <td><%= nbaplayer[:avgpoints] %></td>
+    <td><%= nbaplayer[:cost] %></td>
+    <td><%= button_to "Add", {:controller => "lineup_items",:action=>"create", :id=>nbaplayer[:id], method: :post}%>
+  </tr>
+<% end %>

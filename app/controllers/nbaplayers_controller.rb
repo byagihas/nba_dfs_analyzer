@@ -31,7 +31,7 @@ class NbaplayersController < ApplicationController
       ].each do |name, xpath|
           player[name] = l.at_xpath(xpath).to_s.strip
       end
-        Nbaplayer.create(:position=>player[:position],:name=>player[:name], :avgpoints=>player[:avgpoints], :team=>player[:team], :cost=>(player[:cost].tr('$','')).to_i)
+      Nbaplayer.create(:position=>player[:position],:name=>player[:name], :avgpoints=>player[:avgpoints], :team=>player[:team], :cost=>(player[:cost].tr('$','').tr(',','')).to_i)
     end
     @players=Nbaplayer.where(:id =>LineupItem.select(:id).map(&:id))
   end
@@ -50,6 +50,12 @@ class NbaplayersController < ApplicationController
   # GET /nbaplayers/1/edit
   def edit
   end
+
+  def add_pg
+  respond_to do |format|
+    format.js
+  end
+end
 
   # POST /nbaplayers
   # POST /nbaplayers.json

@@ -28,6 +28,7 @@ gem 'mechanize'
 gem 'nokogiri'
 gem 'd3-rails'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'rspec'
 # Use Unicorn as the app server
 # gem 'unicorn'
 

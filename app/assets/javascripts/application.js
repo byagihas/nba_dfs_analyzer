@@ -17,6 +17,4 @@
 //= require sorttable.js
 //= require_tree .
 
-$(".pg_button1").on("click", function(){
-  
-});
+$('#player_list').html("<%= render :partial => 'pg' %>");
