@@ -4,6 +4,15 @@ Rails.application.routes.draw do
   resource :lineups
   resources :lineup_items
 
+  get '/add_pg1' => 'lineups#add_pg1'
+  get '/add_pg2' => 'lineups#add_pg2'
+  get '/add_sg1' => 'lineups#add_sg1'
+  get '/add_sg2' => 'lineups#add_sg2'
+  get '/add_sf1' => 'lineups#add_sf1'
+  get '/add_sf2' => 'lineups#add_sf2'
+  get '/add_pf1' => 'lineups#add_pf1'
+  get '/add_pf2' => 'lineups#add_pf2'
+  get '/add_c' => 'lineups#add_c'
   get '/list' => 'nbaplayers#list'
   get '/sign-in' => 'sessions#new'
   delete '/sign-out' => 'sessions#destroy'

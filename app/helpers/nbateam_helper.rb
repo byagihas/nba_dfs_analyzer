@@ -1,0 +1,2 @@
+module NbateamHelper
+end

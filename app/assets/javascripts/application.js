@@ -16,5 +16,3 @@
 //= require d3
 //= require sorttable.js
 //= require_tree .
-
-$('#player_list').html("<%= render :partial => 'pg' %>");

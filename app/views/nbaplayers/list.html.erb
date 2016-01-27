@@ -1,7 +1,6 @@
-<div class="roster">
+<div class="userlineup">
   <p id="notice"><%= notice %></p>
-  <h3>User Lineup</h3>
-  <table class="player_roster sortable">
+  <table class="user-lineup-table sortable">
     <thead>
       <tr>
         <th>Pos</th>
@@ -11,71 +10,51 @@
         <th>Cost</th>
         <th></th>
       </tr>
-      <% @players.each do |player| %>
-        <tr>
-          <td class="leftmost"><%= nbaplayer[:position] %></td>
-          <td><%= nbaplayer[:name] %></td>
-          <td><%= nbaplayer[:team]%></td>
-          <td><%= nbaplayer[:avgpoints] %></td>
-          <td><%= nbaplayer[:cost] %></td>
-          <td><%= button_to "+", {} %></td>
-            <td></td>
-          <% end %>
-        </tr>
-        <tr>
     </thead>
     <tbody>
-      <div id="player_list"></div>
+      <tr>
+       <tr><td class="leftmost">PG</td><td><input type="button" onclick="window.location = '/add_pg1'"></td></tr>
+       <tr><td class="leftmost">PG</td><td><input type="button" onclick="window.location = '/add_pg2'"></td></tr>
+       <tr><td class="leftmost">SG</td><td><input type="button" onclick="window.location = '/add_sg1'"></td></tr>
+       <tr><td class="leftmost">SG</td><td><input type="button" onclick="window.location = '/add_sg2'"></td></tr>
+       <tr><td class="leftmost">SF</td><td><input type="button" onclick="window.location = '/add_sf1'"></td></tr>
+       <tr><td class="leftmost">SF</td><td><input type="button" onclick="window.location = '/add_sf2'"></td></tr>
+       <tr><td class="leftmost">PF</td><td><input type="button" onclick="window.location = '/add_pf1'"></td></tr>
+       <tr><td class="leftmost">PF</td><td><input type="button" onclick="window.location = '/add_pf2'"></td></tr>
+       <tr><td class="leftmost">C</td><td><input type="button" onclick="window.location = '/add_c'"></td></tr>
+      </tr>
     </tbody>
   </table>
   <br>
 </div>
 <div class="userlineup">
   <p id="notice"><%= notice %></p>
-  <h3>Your Lineup</h3>
+  <h3>User Lineup</h3>
   <table class="user-lineup-table sortable">
     <thead>
       <tr>
-        <th class="leftmost">Pos.</th>
+        <th>Pos</th>
         <th>Name</th>
         <th>Team</th>
-        <th>Avg. Points</th>
+        <th>Avg.</th>
         <th>Cost</th>
         <th></th>
       </tr>
     </thead>
     <tbody>
-      <tr><td class="leftmost">PG</td><td id="player_list"></td></tr>
-      <tr><td class="leftmost">PG</td></tr>
-      <tr><td class="leftmost">SG</td></tr>
-      <tr><td class="leftmost">SG</td></tr>
-      <tr><td class="leftmost">SF</td></tr>
-      <tr><td class="leftmost">SF</td></tr>
-      <tr><td class="leftmost">PF</td></tr>
-      <tr><td class="leftmost">PF</td></tr>
-      <tr><td class="leftmost">C</td></tr>
-      <% @players.each do |nbaplayer| %>
-        <tr>
-          <td class="leftmost"><%= nbaplayer[:position] %></td>
-          <td><%= nbaplayer[:name] %></td>
-          <td><%= nbaplayer[:team]%></td>
-          <td><%= nbaplayer[:avgpoints] %></td>
-          <td><%= nbaplayer[:cost] %></td>
-          <td><%= button_to "+", {} %></td>
-            <td><%= button_to 'Remove', nbaplayer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-          <% end %>
-        </tr>
-        <tr>
-            <td class="addmore"><%= link_to 'Add more players', list_path %></td>
-        </tr>
-        <tr>
-          <td>Cost Sum:<%= @costsum %></td>
-          <td>Avg Sum:<%= @avgsum %></td>
+      <tr>
+        <% @nbaplayers.each do |player| %>
+          <tr>
+            <td class="leftmost"><%= player[:position] %></td>
+            <td><%= player[:name] %></td>
+            <td><%= player[:team]%></td>
+            <td><%= player[:avgpoints] %></td>
+            <td><%= player[:cost] %></td>
+            <td><%= button_to "+", {} %></td>
+              <td></td>
+            <% end %>
+          </tr>
         </tr>
     </tbody>
   </table>
-  <br>
-  <div class="graph">
-    <p>Dollars per point</p>
-  </div>
 </div>

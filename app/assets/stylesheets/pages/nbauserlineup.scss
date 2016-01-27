@@ -2,31 +2,35 @@
   display: block;
   .user-lineup-table{
     margin: 0 auto;
-    width: 15em;
+    width: 10em;
     table-layout: fixed;
     background-color: rgba(255,255,255,.8);
-    float: middle;
+    float: left;
     padding: .5em;
     thead{
       padding: 1em;
       tr{
+        .leftmost{
+            width: 50px;
+        }
         th{
           font-size: 1em;
           text-align: left;
           padding: .5em;
-          width: 150px;
+          width: 130px;
         }
-      }
-      .leftmost{
-          width: 75px;
       }
     }
     tbody{
       tr{
         background-color: rgba(255,255,255,.7);
+        .leftmost{
+          background-color: rgba(100,200,70,.7);
+          width: 50px;
+        }
         td{
           padding: .5em;
-          width: 150px;
+          width: 130px;
           text-align: left;
           border: 1px solid rgba(0,0,0,.3);
         }
@@ -34,10 +38,7 @@
       tr:hover{
         background-color: rgba(100,200,70,.7);
       }
-      .leftmost{
-        background-color: rgba(100,200,70,.7);
-        width: 75px;
-      }
+
       input{
         background-color: rgba(100,200,70,.7);
       }
