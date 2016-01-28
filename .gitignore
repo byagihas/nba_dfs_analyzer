@@ -8,6 +8,8 @@
 /.bundle
 /.vagrant
 /Vagrantfile
+/Vagrantfile~
+/Gemfile~
 /Cheffile
 /Cheffile.lock
 /cookbooks

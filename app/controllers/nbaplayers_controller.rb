@@ -30,12 +30,18 @@ class NbaplayersController < ApplicationController
       ].each do |name, xpath|
           player[name] = l.at_xpath(xpath).to_s.strip
       end
-      Nbaplayer.create(:position=>player[:position],:name=>player[:name], :avgpoints=>player[:avgpoints], :team=>player[:team], :cost=>(player[:cost].tr('$','').tr(',','')).to_i)
+      Nbaplayer.create(:position=>player[:position],:name=>player[:name], :avgpoints=>player[:avgpoints], :team=>player[:team], :cost=>(player[:cost].tr('$','').tr(',','')).to_i, :id=>player[:id])
     end
     @player
+    @lineup = Nbaplayer.where(:id =>LineupItem.select(:id).map(&:id))
   end
   # GET /nbaplayers/1
   # GET /nbaplayers/1.json
+  def add_lineup_item
+    LineupItem.create(:id => params[:li_id])
+    redirect_to list_path
+  end
+
   def show
   end
   # GET /nbaplayers/new
@@ -62,7 +68,6 @@ class NbaplayersController < ApplicationController
       end
     end
   end
-
   # PATCH/PUT /nbaplayers/1
   # PATCH/PUT /nbaplayers/1.json
   def update
@@ -76,7 +81,6 @@ class NbaplayersController < ApplicationController
       end
     end
   end
-
   # DELETE /nbaplayers/1
   # DELETE /nbaplayers/1.json
   def destroy

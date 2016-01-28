@@ -23,6 +23,11 @@
        <tr><td class="leftmost">PF</td><td><input type="button" onclick="window.location = '/add_pf2'"></td></tr>
        <tr><td class="leftmost">C</td><td><input type="button" onclick="window.location = '/add_c'"></td></tr>
       </tr>
+      <% @lineup.each do |li| %>
+        <tr>
+          <td class="leftmost"><%= li[:name] %></td>
+          <% end %>
+      </tr>
     </tbody>
   </table>
   <br>
@@ -50,7 +55,7 @@
             <td><%= player[:team]%></td>
             <td><%= player[:avgpoints] %></td>
             <td><%= player[:cost] %></td>
-            <td><%= button_to "+", {} %></td>
+            <td><%= button_to '+', {:action=>"add_lineup_item", :li_id => player[:id]}%></td>
               <td></td>
             <% end %>
           </tr>

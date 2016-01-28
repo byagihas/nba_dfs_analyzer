@@ -3,7 +3,11 @@ Rails.application.routes.draw do
   resources :sessions, only: [:new, :create, :destroy, :list]
   resource :lineups
   resources :lineup_items
+  resources :nbaplayers do
+    resources :lineup_items
+  end
 
+  post '/add_lineup_item' => 'nbaplayers#add_lineup_item'
   get '/add_pg1' => 'lineups#add_pg1'
   get '/add_pg2' => 'lineups#add_pg2'
   get '/add_sg1' => 'lineups#add_sg1'

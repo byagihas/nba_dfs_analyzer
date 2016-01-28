@@ -5,6 +5,7 @@ class LineupsController < ApplicationController
 
   def add_pg1
     cookies[:sposition] = "PG"
+    cookies[:pposition] = :pg1
     redirect_to root_url
   end
 
