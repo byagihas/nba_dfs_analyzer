@@ -13,20 +13,20 @@
     </thead>
     <tbody>
       <tr>
-       <tr><td class="leftmost">PG</td><td><input type="button" onclick="window.location = '/add_pg1'"></td></tr>
-       <tr><td class="leftmost">PG</td><td><input type="button" onclick="window.location = '/add_pg2'"></td></tr>
-       <tr><td class="leftmost">SG</td><td><input type="button" onclick="window.location = '/add_sg1'"></td></tr>
-       <tr><td class="leftmost">SG</td><td><input type="button" onclick="window.location = '/add_sg2'"></td></tr>
-       <tr><td class="leftmost">SF</td><td><input type="button" onclick="window.location = '/add_sf1'"></td></tr>
-       <tr><td class="leftmost">SF</td><td><input type="button" onclick="window.location = '/add_sf2'"></td></tr>
-       <tr><td class="leftmost">PF</td><td><input type="button" onclick="window.location = '/add_pf1'"></td></tr>
-       <tr><td class="leftmost">PF</td><td><input type="button" onclick="window.location = '/add_pf2'"></td></tr>
-       <tr><td class="leftmost">C</td><td><input type="button" onclick="window.location = '/add_c'"></td></tr>
+       <tr><td class="leftmost">PG</td><td><input type="button" onclick="window.location = '/add_pg1'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">PG</td><td><input type="button" onclick="window.location = '/add_pg2'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">SG</td><td><input type="button" onclick="window.location = '/add_sg1'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">SG</td><td><input type="button" onclick="window.location = '/add_sg2'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">SF</td><td><input type="button" onclick="window.location = '/add_sf1'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">SF</td><td><input type="button" onclick="window.location = '/add_sf2'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">PF</td><td><input type="button" onclick="window.location = '/add_pf1'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">PF</td><td><input type="button" onclick="window.location = '/add_pf2'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">C</td><td><input type="button" onclick="window.location = '/add_c'" value="Add Player"></td></tr>
       </tr>
       <% @lineup.each do |li| %>
-        <tr>
-          <td class="leftmost"><%= li[:name] %></td>
-          <% end %>
+      <tr>
+        <td class="leftmost"><%= li[:name] %></td>
+        <% end %>
       </tr>
     </tbody>
   </table>
@@ -34,7 +34,6 @@
 </div>
 <div class="userlineup">
   <p id="notice"><%= notice %></p>
-  <h3>User Lineup</h3>
   <table class="user-lineup-table sortable">
     <thead>
       <tr>
@@ -54,7 +53,7 @@
             <td><%= player[:name] %></td>
             <td><%= player[:team]%></td>
             <td><%= player[:avgpoints] %></td>
-            <td><%= player[:cost] %></td>
+            <td><%= number_to_currency(player[:cost]).chomp('.00') %></td>
             <td><%= button_to '+', {:action=>"add_lineup_item", :li_id => player[:id]}%></td>
               <td></td>
             <% end %>

@@ -1,4 +1,5 @@
 class SessionsController < ApplicationController
+  #Users for future use
   def new
   end
 
@@ -11,6 +12,7 @@ class SessionsController < ApplicationController
       flash.alert = 'Invalid email/password combination. Please try again.'
       render :new
     end
+    #Lineup = Nbaplayer.where(:lineup => true)?
   end
 
   def destroy

@@ -11,16 +11,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <nav class="navbar">
-    <div class="menu">
-      <ul id="nav">
-        <li><%= link_to 'Home', root_path %></li>
-        <li><%= link_to 'Create Lineup', list_path %></li>
-      </ul>
-    </div>
-    <div class="login">
-    </div>
-  </nav>
+  <h2>NBA DFS Analyzer</h2>
   <div class="content">
     <% flash.each do |type, message| %>
       <div class="<%= type %>">

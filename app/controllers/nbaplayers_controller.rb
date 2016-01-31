@@ -1,3 +1,6 @@
+#Nbaplayers Controller
+#Creates Nbaplayers and associates them?
+
 require 'mechanize'
 require 'nokogiri'
 require 'csv'
@@ -8,8 +11,10 @@ class NbaplayersController < ApplicationController
   before_action except: [:index, :show, :home]
   before_action :set_nbaplayer, only: [:show, :edit, :update, :destroy]
 
-  # GET /nbaplayers
-  # GET /nbaplayers.json
+  #- Scrapes data from Rotowire DFS Optimizer, storing information into Nbaplayers
+  #- Displays Nbaplayers on list page
+  #Need to add daily sorting?
+  #Possibly migrate creation functionality to model
   def list
     @nbaplayers = Nbaplayer.where(:position=> cookies[:sposition])
     url = "http://www.rotowire.com/daily/nba/optimizer.htm"
@@ -35,8 +40,7 @@ class NbaplayersController < ApplicationController
     @player
     @lineup = Nbaplayer.where(:id =>LineupItem.select(:id).map(&:id))
   end
-  # GET /nbaplayers/1
-  # GET /nbaplayers/1.json
+  #Creates Lineup Item for Nbaplayer identification
   def add_lineup_item
     LineupItem.create(:id => params[:li_id])
     redirect_to list_path

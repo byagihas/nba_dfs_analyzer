@@ -10,7 +10,6 @@ class LineupItemsController < ApplicationController
 
   def create
     @lineup_item = LineupItem.new(lineup_item_params)
-
     respond_to do |format|
       if @lineup_item.save
         format.html { redirect_to list_path}
