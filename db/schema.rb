@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160128061133) do
+ActiveRecord::Schema.define(version: 20160131215625) do
 
   create_table "line_up_statuses", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -21,8 +21,8 @@ ActiveRecord::Schema.define(version: 20160128061133) do
   create_table "lineup_items", force: :cascade do |t|
     t.integer  "lineup_id"
     t.integer  "quantity"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
     t.integer  "cost"
     t.float    "avgpoints"
     t.text     "name"
@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 20160128061133) do
     t.integer  "pf1"
     t.integer  "pf2"
     t.integer  "cen"
+    t.string   "lineuposition"
   end
 
   add_index "lineup_items", ["lineup_id"], name: "index_lineup_items_on_lineup_id"

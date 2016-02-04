@@ -37,6 +37,6 @@ class LineupItemsController < ApplicationController
 
 private
   def lineup_item_params
-    params.permit(:id)
+    params.permit(:id, :lineuposition)
   end
 end

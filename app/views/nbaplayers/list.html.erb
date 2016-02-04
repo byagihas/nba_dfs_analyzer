@@ -1,6 +1,7 @@
 <!-- List view !-->
 
 <div class="userlineup">
+  <h3>NBA DFS Analyzer</h3>
   <p id="notice"><%= notice %></p>
   <table class="user-lineup-table sortable">
     <thead>
@@ -15,20 +16,15 @@
     </thead>
     <tbody>
       <tr>
-       <tr><td class="leftmost">PG</td><td><input type="button" onclick="window.location = '/add_pg1'" value="Add Player"></td></tr>
-       <tr><td class="leftmost">PG</td><td><input type="button" onclick="window.location = '/add_pg2'" value="Add Player"></td></tr>
-       <tr><td class="leftmost">SG</td><td><input type="button" onclick="window.location = '/add_sg1'" value="Add Player"></td></tr>
-       <tr><td class="leftmost">SG</td><td><input type="button" onclick="window.location = '/add_sg2'" value="Add Player"></td></tr>
-       <tr><td class="leftmost">SF</td><td><input type="button" onclick="window.location = '/add_sf1'" value="Add Player"></td></tr>
-       <tr><td class="leftmost">SF</td><td><input type="button" onclick="window.location = '/add_sf2'" value="Add Player"></td></tr>
-       <tr><td class="leftmost">PF</td><td><input type="button" onclick="window.location = '/add_pf1'" value="Add Player"></td></tr>
-       <tr><td class="leftmost">PF</td><td><input type="button" onclick="window.location = '/add_pf2'" value="Add Player"></td></tr>
-       <tr><td class="leftmost">C</td><td><input type="button" onclick="window.location = '/add_c'" value="Add Player"></td></tr>
-      </tr>
-      <% @lineup.each do |li| %>
-      <tr>
-        <td class="leftmost"><%= li[:name] %></td>
-        <% end %>
+       <tr><td class="leftmost">PG</td><td><%= @pg1 %></td><td><input type="button" onclick="window.location = '/add_pg1'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">PG</td><td><%= @pg2 %></td><td><input type="button" onclick="window.location = '/add_pg2'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">SG</td><td><%= @sg1 %></td><td><input type="button" onclick="window.location = '/add_sg1'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">SG</td><td><%= @sg2 %></td><td><input type="button" onclick="window.location = '/add_sg2'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">SF</td><td><%= @sf1 %></td><td><input type="button" onclick="window.location = '/add_sf1'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">SF</td><td><%= @sf2 %></td><td><input type="button" onclick="window.location = '/add_sf2'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">PF</td><td><%= @pf1 %></td><td><input type="button" onclick="window.location = '/add_pf1'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">PF</td><td><%= @pf2 %></td><td><input type="button" onclick="window.location = '/add_pf2'" value="Add Player"></td></tr>
+       <tr><td class="leftmost">C</td><td><%= @c %></td><td><input type="button" onclick="window.location = '/add_c'" value="Add Player"></td></tr>
       </tr>
     </tbody>
   </table>
@@ -56,7 +52,7 @@
             <td><%= player[:team]%></td>
             <td><%= player[:avgpoints] %></td>
             <td><%= number_to_currency(player[:cost]).chomp('.00') %></td>
-            <td><%= button_to '+', {:action=>"add_lineup_item", :li_id => player[:id]}%></td>
+            <td><%= button_to '+', {:action=>"add_lineup_item", :li_id => player[:id], :lposition => cookies[:sposition]}%></td>
               <td></td>
             <% end %>
           </tr>
